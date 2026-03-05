@@ -20,7 +20,15 @@ function run(scriptName: string): Promise<void> {
 }
 
 async function main() {
+  const fetchOnly = process.argv.includes('--fetch');
+
   await run('fetch:doc');
+
+  if (fetchOnly) {
+    console.log('build:data complete (fetch only)');
+    return;
+  }
+
   await run('parse:doc');
   await run('enrich:data');
   console.log('build:data complete');
