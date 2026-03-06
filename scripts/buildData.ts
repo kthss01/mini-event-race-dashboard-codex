@@ -62,6 +62,7 @@ async function main() {
 
     await run('parse:doc');
     await run('enrich:data');
+    await run('validate:data');
   }
 
   if (shouldFetch && !shouldParse) {

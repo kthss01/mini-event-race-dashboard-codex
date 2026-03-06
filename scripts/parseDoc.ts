@@ -277,6 +277,11 @@ async function main() {
   const notesPath = path.join(rootDir, 'data', 'notes.json');
 
   const doc = await readFile(rawDocPath, 'utf8').catch(() => '');
+
+  if (!doc.trim()) {
+    console.warn('parseDoc warning: data/raw/doc.txt is empty. Generated data may be incomplete.');
+  }
+
   const { contestsFile, notesFile } = parseDocText(doc);
 
   await writeFile(contestsPath, JSON.stringify(contestsFile, null, 2) + '\n', 'utf8');

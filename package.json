@@ -15,6 +15,7 @@
     "fetch:doc": "tsx scripts/fetchDoc.ts",
     "parse:doc": "tsx scripts/parseDoc.ts",
     "enrich:data": "tsx scripts/enrich.ts",
+    "validate:data": "tsx scripts/validateData.ts",
     "test": "node --import tsx --test scripts/__tests__/parseDoc.test.ts",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
