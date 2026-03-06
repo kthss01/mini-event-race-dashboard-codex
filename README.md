@@ -91,3 +91,43 @@ npm run parse:doc
 npm run enrich:data
 npm run validate:data
 ```
+
+### 4) `data/notes.json` 스키마 계약 (드리프트 방지)
+
+`notes.json`은 파이프라인에서 발생한 **비정형 문서 메모/운영 메모**를 구조화해서 보관하는 파일입니다.
+
+```json
+{
+  "meta": {
+    "generatedAt": "2026-03-06T00:00:00.000Z",
+    "version": 1
+  },
+  "notes": [
+    {
+      "id": "parse-note-1",
+      "message": "운영 메모: 행사장 주차 협소",
+      "source": "parse",
+      "createdAt": "2026-03-06T00:00:00.000Z",
+      "contestId": "2024-10-01_서울마라톤"
+    }
+  ]
+}
+```
+
+- `meta.generatedAt`: 파일 생성/갱신 시각(ISO-8601)
+- `meta.version`: 계약 버전 (현재 `1`)
+- `notes[].id`: 노트 고유 식별자
+- `notes[].message`: 사람이 읽는 메모 본문
+- `notes[].source`: 생성 주체 (`parse` | `enrich` | `migration`)
+- `notes[].createdAt`: 노트 생성 시각(ISO-8601)
+- `notes[].contestId`: 관련 대회 ID (없으면 생략 가능)
+
+#### 레거시 마이그레이션 규칙
+
+기존 `notes: string[]` 포맷을 읽으면 아래 규칙으로 자동 변환합니다.
+
+1. 각 문자열 항목을 `notes[].message`로 매핑
+2. `id`는 순서 기반 `migration-note-{n}` 부여
+3. `source`는 `migration` 고정
+4. `createdAt`은 `meta.generatedAt`(없으면 현재 파이프라인 시간) 사용
+5. 출력은 항상 구조화된 `notes: NoteItem[]` 계약으로 저장

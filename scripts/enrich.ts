@@ -1,7 +1,8 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
-import type { Contest, ContestsFile, NotesFile } from '../src/lib/types';
+import type { Contest, ContestsFile, NoteItem, NotesFile } from '../src/lib/types';
+import { normalizeNotesFile } from './notesContract';
 
 type ExtractOgImage = (websiteUrl: string) => Promise<string | null>;
 
@@ -12,6 +13,14 @@ const rootDir = path.resolve(__dirname, '..');
 async function readJson<T>(filePath: string): Promise<T> {
   const raw = await readFile(filePath, 'utf8');
   return JSON.parse(raw) as T;
+}
+
+async function readJsonOrNull<T>(filePath: string): Promise<T | null> {
+  try {
+    return await readJson<T>(filePath);
+  } catch {
+    return null;
+  }
 }
 
 function stableSortContests(contests: Contest[]): Contest[] {
@@ -34,8 +43,8 @@ function stableSortContests(contests: Contest[]): Contest[] {
   });
 }
 
-function stableSortNotes(notes: string[]): string[] {
-  return [...notes].sort((a, b) => a.localeCompare(b, 'ko'));
+function stableSortNotes(notes: NoteItem[]): NoteItem[] {
+  return [...notes].sort((a, b) => a.message.localeCompare(b.message, 'ko'));
 }
 
 function pickWebsite(contest: Contest): string | undefined {
@@ -116,7 +125,8 @@ async function tryExtractOgImage(officialUrl: string): Promise<string | null> {
 export async function enrichContestsFile(
   contestsPayload: ContestsFile,
   generatedAt = new Date().toISOString(),
-  extractOgImage: ExtractOgImage = tryExtractOgImage
+  extractOgImage: ExtractOgImage = tryExtractOgImage,
+  existingNotesInput: unknown = null
 ): Promise<{ contestsFile: ContestsFile; notesFile: NotesFile }> {
   const sortedContests = stableSortContests(contestsPayload.contests.map(normalizeContest));
 
@@ -137,9 +147,16 @@ export async function enrichContestsFile(
     }
   }
 
-  const notes = stableSortNotes(
-    sortedContests.map((contest) => `${contest.name || contest.id} is queued for enrichment.`)
-  );
+  const existingNotes = normalizeNotesFile(existingNotesInput, generatedAt);
+  const enrichNotes = sortedContests.map((contest, index) => ({
+    id: `enrich-note-${index + 1}`,
+    message: `${contest.name || contest.id} is queued for enrichment.`,
+    source: 'enrich' as const,
+    createdAt: generatedAt,
+    contestId: contest.id
+  }));
+
+  const notes = stableSortNotes([...existingNotes.notes, ...enrichNotes]);
 
   const contestsOutput: ContestsFile = {
     meta: {
@@ -168,7 +185,13 @@ async function main() {
   const notesPath = path.join(rootDir, 'data', 'notes.json');
 
   const contestsPayload = await readJson<ContestsFile>(contestsPath);
-  const { contestsFile, notesFile } = await enrichContestsFile(contestsPayload);
+  const existingNotes = await readJsonOrNull<unknown>(notesPath);
+  const { contestsFile, notesFile } = await enrichContestsFile(
+    contestsPayload,
+    undefined,
+    undefined,
+    existingNotes
+  );
 
   await writeFile(contestsPath, `${JSON.stringify(contestsFile, null, 2)}\n`, 'utf8');
   await writeFile(notesPath, `${JSON.stringify(notesFile, null, 2)}\n`, 'utf8');
