@@ -24,7 +24,10 @@ function matchesFilters(contest: Contest, filters: FiltersValue) {
     return false;
   }
 
-  if (filters.hideCancelledNoShow && (contest.status === 'cancelled' || contest.status === 'no_show')) {
+  if (
+    filters.hideCancelledNoShow &&
+    (contest.status === 'cancelled' || contest.status === 'no_show')
+  ) {
     return false;
   }
 
@@ -40,17 +43,25 @@ export default function DashboardPage({ contests }: DashboardPageProps) {
     sport: 'all',
     status: 'all',
     hideCancelledNoShow: false,
-    query: '',
+    query: ''
   });
 
   const sports = useMemo(() => {
-    return [...new Set(contests.map((contest) => contest.sport ?? '기타'))].sort((a, b) => a.localeCompare(b));
+    return [...new Set(contests.map((contest) => contest.sport ?? '기타'))].sort((a, b) =>
+      a.localeCompare(b)
+    );
   }, [contests]);
 
-  const filtered = useMemo(() => contests.filter((contest) => matchesFilters(contest, filters)), [contests, filters]);
+  const filtered = useMemo(
+    () => contests.filter((contest) => matchesFilters(contest, filters)),
+    [contests, filters]
+  );
 
   const upcoming = useMemo(
-    () => filtered.filter(within30Days).sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime()),
+    () =>
+      filtered
+        .filter(within30Days)
+        .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime()),
     [filtered]
   );
 

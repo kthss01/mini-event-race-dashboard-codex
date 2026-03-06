@@ -1,6 +1,6 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 import type { Contest, ContestStatus, ContestsFile, Registration } from '../src/lib/types';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -8,7 +8,8 @@ const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, '..');
 
 const MONTH_HEADER_REGEX = /^(\d{2,4})년\s*(\d{1,2})월/;
-const DATE_LINE_REGEX = /(\d{2})\.(\d{1,2})\.(\d{1,2})(?:\s*~\s*((?:\d{2}\.)?\d{1,2}(?:\.\d{1,2})?))?/;
+const DATE_LINE_REGEX =
+  /(\d{2})\.(\d{1,2})\.(\d{1,2})(?:\s*~\s*((?:\d{2}\.)?\d{1,2}(?:\.\d{1,2})?))?/;
 
 const NOISE_TOKENS = [
   /^[-–—•·*]+$/,
@@ -26,7 +27,10 @@ const NOISE_TOKENS = [
 ];
 
 function normalizeLine(line: string): string {
-  return line.replace(/\u00A0/g, ' ').replace(/\s+/g, ' ').trim();
+  return line
+    .replace(/\u00A0/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
 }
 
 function toFullYear(rawYear: number): number {
@@ -45,7 +49,11 @@ function asDate(year: number, month: number, day: number): string {
   return `${year}-${pad(month)}-${pad(day)}`;
 }
 
-function parseEndDate(startYear: number, startMonth: number, rangeToken: string): string | undefined {
+function parseEndDate(
+  startYear: number,
+  startMonth: number,
+  rangeToken: string
+): string | undefined {
   const clean = rangeToken.trim();
   const fullParts = clean.split('.').map((part) => Number(part));
 
@@ -100,7 +108,10 @@ function slugify(value: string): string {
   return slug || 'untitled';
 }
 
-function mapStatusAndRegistration(line: string, date: string): { status: ContestStatus; registration?: Registration } {
+function mapStatusAndRegistration(
+  line: string,
+  date: string
+): { status: ContestStatus; registration?: Registration } {
   const lower = line.toLowerCase();
   const registration: Registration = {};
 
@@ -148,13 +159,18 @@ function isLikelyAmbiguous(name: string): boolean {
   return /^메모|공지|참고$/.test(name);
 }
 
-async function main() {
-  const rawDocPath = path.join(rootDir, 'data', 'raw', 'doc.txt');
-  const contestsPath = path.join(rootDir, 'data', 'contests.json');
-  const notesPath = path.join(rootDir, 'data', 'notes.json');
+export type ParseDocResult = {
+  contestsFile: ContestsFile;
+  notesFile: {
+    meta: {
+      generatedAt: string;
+      version: number;
+    };
+    notes: string[];
+  };
+};
 
-  const doc = await readFile(rawDocPath, 'utf8').catch(() => '');
-
+export function parseDocText(doc: string, generatedAt = new Date().toISOString()): ParseDocResult {
   const contests: Contest[] = [];
   const looseNotes: string[] = [];
   const idCounts = new Map<string, number>();
@@ -201,14 +217,19 @@ async function main() {
 
     const matchStart = dateMatch.index ?? 0;
     const tailText = line.slice(matchStart + dateMatch[0].length).trim();
-    const cleanedName = cleanName(tailText);
-    const { status, registration } = mapStatusAndRegistration(line, date);
-
-    const memoBits = tailText
+    const tailSegments = tailText
       .split(/[,/|]/)
       .map((piece) => piece.trim())
+      .filter(Boolean);
+    const nameSource = tailSegments[0] ?? tailText;
+    const cleanedName = cleanName(nameSource);
+    const { status, registration } = mapStatusAndRegistration(line, date);
+
+    const memoBits = tailSegments
+      .slice(1)
+      .map((piece) => cleanName(piece) || piece)
       .filter(Boolean)
-      .filter((piece) => !cleanedName.includes(piece) || piece.length > cleanedName.length);
+      .filter((piece) => piece !== cleanedName);
 
     if (!cleanedName || isLikelyAmbiguous(cleanedName)) {
       looseNotes.push(line);
@@ -228,37 +249,46 @@ async function main() {
       status,
       registration,
       notes: memoBits,
-      updatedAt: new Date().toISOString()
+      updatedAt: generatedAt
     });
   }
 
-  const contestsFile: ContestsFile = {
-    meta: {
-      generatedAt: new Date().toISOString(),
-      version: 1
-    },
-    contests
-  };
-
-  await writeFile(contestsPath, JSON.stringify(contestsFile, null, 2) + '\n', 'utf8');
-
-  await writeFile(
-    notesPath,
-    JSON.stringify(
-      {
-        meta: {
-          generatedAt: new Date().toISOString(),
-          version: 1
-        },
-        notes: looseNotes
+  return {
+    contestsFile: {
+      meta: {
+        generatedAt,
+        version: 1
       },
-      null,
-      2
-    ) + '\n',
-    'utf8'
-  );
-
-  console.log(`parseDoc complete (contests=${contests.length}, notes=${looseNotes.length})`);
+      contests
+    },
+    notesFile: {
+      meta: {
+        generatedAt,
+        version: 1
+      },
+      notes: looseNotes
+    }
+  };
 }
 
-main();
+async function main() {
+  const rawDocPath = path.join(rootDir, 'data', 'raw', 'doc.txt');
+  const contestsPath = path.join(rootDir, 'data', 'contests.json');
+  const notesPath = path.join(rootDir, 'data', 'notes.json');
+
+  const doc = await readFile(rawDocPath, 'utf8').catch(() => '');
+  const { contestsFile, notesFile } = parseDocText(doc);
+
+  await writeFile(contestsPath, JSON.stringify(contestsFile, null, 2) + '\n', 'utf8');
+  await writeFile(notesPath, JSON.stringify(notesFile, null, 2) + '\n', 'utf8');
+
+  console.log(
+    `parseDoc complete (contests=${contestsFile.contests.length}, notes=${notesFile.notes.length})`
+  );
+}
+
+const entry = process.argv[1] ? pathToFileURL(path.resolve(process.argv[1])).href : '';
+
+if (import.meta.url === entry) {
+  main();
+}

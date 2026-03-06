@@ -26,7 +26,9 @@ export default function ContestCard({ contest }: ContestCardProps) {
         </h3>
         <StatusBadge status={contest.status} />
       </div>
-      <p className="contest-meta">{contest.sport ?? '기타'} · {formatRange(contest.date, contest.endDate)}</p>
+      <p className="contest-meta">
+        {contest.sport ?? '기타'} · {formatRange(contest.date, contest.endDate)}
+      </p>
       {contest.notes.length > 0 ? <p className="contest-note">{contest.notes[0]}</p> : null}
     </article>
   );

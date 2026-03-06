@@ -67,7 +67,9 @@ function stableSortContests(contests: ContestRecord[]): ContestRecord[] {
   });
 }
 
-function stableSortNotes(notes: Array<{ contestId: string; note: string }>): Array<{ contestId: string; note: string }> {
+function stableSortNotes(
+  notes: Array<{ contestId: string; note: string }>
+): Array<{ contestId: string; note: string }> {
   return [...notes].sort((a, b) => {
     if (a.contestId !== b.contestId) {
       return a.contestId.localeCompare(b.contestId);
@@ -105,7 +107,9 @@ async function tryExtractOgImage(officialUrl: string): Promise<string | null> {
   }
 
   const html = await response.text();
-  const ogMatch = html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["'][^>]*>/i);
+  const ogMatch = html.match(
+    /<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["'][^>]*>/i
+  );
 
   if (!ogMatch?.[1]) {
     return null;

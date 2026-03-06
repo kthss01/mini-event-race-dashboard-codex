@@ -37,12 +37,14 @@ function parseServiceAccount(rawJson: string): ServiceAccount {
   if (
     !parsed ||
     typeof parsed !== 'object' ||
-    !("client_email" in parsed) ||
-    !("private_key" in parsed) ||
+    !('client_email' in parsed) ||
+    !('private_key' in parsed) ||
     typeof parsed.client_email !== 'string' ||
     typeof parsed.private_key !== 'string'
   ) {
-    throw new Error('Invalid GOOGLE_SERVICE_ACCOUNT_JSON: missing client_email/private_key fields.');
+    throw new Error(
+      'Invalid GOOGLE_SERVICE_ACCOUNT_JSON: missing client_email/private_key fields.'
+    );
   }
 
   return parsed as ServiceAccount;
@@ -123,7 +125,9 @@ async function getAccessToken(serviceAccount: ServiceAccount): Promise<string> {
 }
 
 async function downloadDocumentText(fileId: string, accessToken: string): Promise<string> {
-  const exportUrl = new URL(`https://www.googleapis.com/drive/v3/files/${encodeURIComponent(fileId)}/export`);
+  const exportUrl = new URL(
+    `https://www.googleapis.com/drive/v3/files/${encodeURIComponent(fileId)}/export`
+  );
   exportUrl.searchParams.set('mimeType', 'text/plain');
 
   const response = await fetch(exportUrl, {

@@ -12,7 +12,7 @@ const STATUS_LABELS: Record<ContestStatus, string> = {
   cancelled: '취소',
   no_show: '불참',
   not_applied: '미신청',
-  scheduled: '예정',
+  scheduled: '예정'
 };
 
 export default function StatusBadge({ status }: StatusBadgeProps) {
