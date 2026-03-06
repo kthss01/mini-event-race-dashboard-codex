@@ -1,42 +1,9 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
+import type { Contest, ContestsFile, NotesFile } from '../src/lib/types';
 
-type ContestRecord = {
-  id: string;
-  name?: string;
-  title?: string;
-  date?: string;
-  year?: number;
-  links?: {
-    official?: string;
-    [key: string]: unknown;
-  };
-  media?: {
-    imageUrl?: string | null;
-    [key: string]: unknown;
-  };
-  searchQuery?: string;
-  [key: string]: unknown;
-};
-
-type ContestsFile = {
-  meta?: {
-    generatedAt?: string;
-    version?: number;
-    [key: string]: unknown;
-  };
-  contests: ContestRecord[];
-};
-
-type NotesFile = {
-  meta?: {
-    generatedAt?: string;
-    version?: number;
-    [key: string]: unknown;
-  };
-  notes: Array<{ contestId: string; note: string }>;
-};
+type ExtractOgImage = (websiteUrl: string) => Promise<string | null>;
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -47,7 +14,7 @@ async function readJson<T>(filePath: string): Promise<T> {
   return JSON.parse(raw) as T;
 }
 
-function stableSortContests(contests: ContestRecord[]): ContestRecord[] {
+function stableSortContests(contests: Contest[]): Contest[] {
   return [...contests].sort((a, b) => {
     const dateA = typeof a.date === 'string' ? a.date : '';
     const dateB = typeof b.date === 'string' ? b.date : '';
@@ -56,8 +23,8 @@ function stableSortContests(contests: ContestRecord[]): ContestRecord[] {
       return dateA.localeCompare(dateB);
     }
 
-    const nameA = (a.title ?? a.name ?? '').toString();
-    const nameB = (b.title ?? b.name ?? '').toString();
+    const nameA = a.name;
+    const nameB = b.name;
 
     if (nameA !== nameB) {
       return nameA.localeCompare(nameB, 'ko');
@@ -67,32 +34,60 @@ function stableSortContests(contests: ContestRecord[]): ContestRecord[] {
   });
 }
 
-function stableSortNotes(
-  notes: Array<{ contestId: string; note: string }>
-): Array<{ contestId: string; note: string }> {
-  return [...notes].sort((a, b) => {
-    if (a.contestId !== b.contestId) {
-      return a.contestId.localeCompare(b.contestId);
-    }
-
-    return a.note.localeCompare(b.note, 'ko');
-  });
+function stableSortNotes(notes: string[]): string[] {
+  return [...notes].sort((a, b) => a.localeCompare(b, 'ko'));
 }
 
-function deriveYear(contest: ContestRecord): number | undefined {
-  if (typeof contest.year === 'number' && Number.isInteger(contest.year)) {
-    return contest.year;
+function pickWebsite(contest: Contest): string | undefined {
+  const rawLinks = contest.links as Record<string, unknown> | undefined;
+  if (typeof contest.links?.website === 'string' && contest.links.website) {
+    return contest.links.website;
   }
 
-  if (typeof contest.date === 'string') {
-    const match = contest.date.match(/^(\d{4})-/);
+  const official = rawLinks?.official;
+  return typeof official === 'string' && official ? official : undefined;
+}
 
-    if (match) {
-      return Number(match[1]);
-    }
+function pickPoster(contest: Contest): string | undefined {
+  const rawMedia = contest.media as Record<string, unknown> | undefined;
+  if (typeof contest.media?.poster === 'string' && contest.media.poster) {
+    return contest.media.poster;
   }
 
-  return undefined;
+  const imageUrl = rawMedia?.imageUrl;
+  return typeof imageUrl === 'string' && imageUrl ? imageUrl : undefined;
+}
+
+function normalizeContest(contest: Contest): Contest {
+  const website = pickWebsite(contest);
+  const poster = pickPoster(contest);
+
+  return {
+    id: contest.id,
+    name: contest.name,
+    sport: contest.sport,
+    date: contest.date,
+    endDate: contest.endDate,
+    status: contest.status,
+    registration: contest.registration,
+    links:
+      website || contest.links?.registration || contest.links?.results
+        ? {
+            website,
+            registration: contest.links?.registration,
+            results: contest.links?.results
+          }
+        : undefined,
+    media:
+      poster || contest.media?.thumbnail
+        ? {
+            poster,
+            thumbnail: contest.media?.thumbnail
+          }
+        : undefined,
+    notes: contest.notes,
+    updatedAt: contest.updatedAt
+  };
 }
 
 async function tryExtractOgImage(officialUrl: string): Promise<string | null> {
@@ -118,63 +113,73 @@ async function tryExtractOgImage(officialUrl: string): Promise<string | null> {
   return new URL(ogMatch[1], officialUrl).toString();
 }
 
-async function main() {
-  const contestsPath = path.join(rootDir, 'data', 'contests.json');
-  const notesPath = path.join(rootDir, 'data', 'notes.json');
-
-  const contestsPayload = await readJson<ContestsFile>(contestsPath);
-  const sortedContests = stableSortContests(contestsPayload.contests);
+export async function enrichContestsFile(
+  contestsPayload: ContestsFile,
+  generatedAt = new Date().toISOString(),
+  extractOgImage: ExtractOgImage = tryExtractOgImage
+): Promise<{ contestsFile: ContestsFile; notesFile: NotesFile }> {
+  const sortedContests = stableSortContests(contestsPayload.contests.map(normalizeContest));
 
   for (const contest of sortedContests) {
-    const title = contest.title ?? contest.name ?? '';
-    const year = deriveYear(contest);
+    const website = pickWebsite(contest);
 
-    if (!contest.links?.official && !contest.searchQuery && title && year) {
-      contest.searchQuery = `${title} ${year}`;
+    if (!website) {
+      continue;
     }
 
-    if (contest.links?.official) {
-      contest.media = contest.media ?? {};
+    contest.media = contest.media ?? {};
 
-      try {
-        contest.media.imageUrl = await tryExtractOgImage(contest.links.official);
-      } catch (error) {
-        contest.media.imageUrl = null;
-        const reason = error instanceof Error ? error.message : String(error);
-        console.warn(`[enrich] OG image extraction failed for ${contest.id}: ${reason}`);
-      }
+    try {
+      contest.media.poster = (await extractOgImage(website)) ?? contest.media.poster;
+    } catch (error) {
+      const reason = error instanceof Error ? error.message : String(error);
+      console.warn(`[enrich] OG image extraction failed for ${contest.id}: ${reason}`);
     }
   }
 
   const notes = stableSortNotes(
-    sortedContests.map((contest) => ({
-      contestId: contest.id,
-      note: `${contest.title ?? contest.name ?? contest.id} is queued for enrichment.`
-    }))
+    sortedContests.map((contest) => `${contest.name || contest.id} is queued for enrichment.`)
   );
 
-  const now = new Date().toISOString();
   const contestsOutput: ContestsFile = {
     meta: {
-      ...(contestsPayload.meta ?? {}),
-      generatedAt: now,
-      version: typeof contestsPayload.meta?.version === 'number' ? contestsPayload.meta.version : 1
+      generatedAt,
+      version: contestsPayload.meta.version
     },
     contests: sortedContests
   };
 
   const notesOutput: NotesFile = {
     meta: {
-      generatedAt: now,
+      generatedAt,
       version: 1
     },
     notes
   };
 
-  await writeFile(contestsPath, `${JSON.stringify(contestsOutput, null, 2)}\n`, 'utf8');
-  await writeFile(notesPath, `${JSON.stringify(notesOutput, null, 2)}\n`, 'utf8');
-
-  console.log(`enrich complete (contests=${sortedContests.length}, notes=${notes.length})`);
+  return {
+    contestsFile: contestsOutput,
+    notesFile: notesOutput
+  };
 }
 
-main();
+async function main() {
+  const contestsPath = path.join(rootDir, 'data', 'contests.json');
+  const notesPath = path.join(rootDir, 'data', 'notes.json');
+
+  const contestsPayload = await readJson<ContestsFile>(contestsPath);
+  const { contestsFile, notesFile } = await enrichContestsFile(contestsPayload);
+
+  await writeFile(contestsPath, `${JSON.stringify(contestsFile, null, 2)}\n`, 'utf8');
+  await writeFile(notesPath, `${JSON.stringify(notesFile, null, 2)}\n`, 'utf8');
+
+  console.log(
+    `enrich complete (contests=${contestsFile.contests.length}, notes=${notesFile.notes.length})`
+  );
+}
+
+const entry = process.argv[1] ? pathToFileURL(path.resolve(process.argv[1])).href : '';
+
+if (import.meta.url === entry) {
+  main();
+}

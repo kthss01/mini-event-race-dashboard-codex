@@ -15,7 +15,7 @@ function run(scriptName: string): Promise<void> {
       shell: process.platform === 'win32'
     });
 
-    child.on('exit', (code) => {
+    child.on('exit', (code: number | null) => {
       if (code === 0) {
         resolve();
       } else {
