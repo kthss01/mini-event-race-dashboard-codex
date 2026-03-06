@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>데이터 갱신 가이드</title>
+    <style>
+      body {
+        font-family: Inter, system-ui, sans-serif;
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 2rem 1rem;
+        line-height: 1.6;
+      }
+      code {
+        background: #f1f5f9;
+        padding: 0.1rem 0.3rem;
+        border-radius: 0.3rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>데이터 갱신 방법</h1>
+    <p>운영자는 아래 순서로 일정 데이터를 갱신할 수 있습니다.</p>
+    <ol>
+      <li><code>npm run build:data</code> 실행</li>
+      <li><code>npm run validate:data</code> 결과 확인</li>
+      <li>생성된 <code>data/contests.json</code> 배포</li>
+    </ol>
+    <p>
+      자세한 체크리스트는 저장소 <code>README.md</code>의
+      "초기 세팅/갱신 절차"를 확인하세요.
+    </p>
+  </body>
+</html>

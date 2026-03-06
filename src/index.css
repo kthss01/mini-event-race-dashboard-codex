@@ -199,3 +199,31 @@ select {
   color: #64748b;
   background: #f1f5f9;
 }
+
+.meta-text {
+  color: #475569;
+  font-size: 0.9rem;
+  margin-top: -0.2rem;
+}
+
+.data-notice {
+  border: 1px solid #fecaca;
+  background: #fff7ed;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.data-notice h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+}
+
+.data-notice p {
+  margin: 0.35rem 0;
+}
+
+.admin-hint {
+  color: #7c2d12;
+  font-size: 0.9rem;
+}

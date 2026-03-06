@@ -7,9 +7,12 @@ import DashboardPage from './pages/DashboardPage';
 const ROUTES = ['/', '/calendar', '/contest/:id'];
 
 export default function App() {
-  const { data, loading, error } = useContestData();
+  const { data, loading, loadState } = useContestData();
   const pathname = useRouter();
   const route = useRoute(pathname, ROUTES);
+
+  const dataNoticeMode =
+    loadState === 'ready' ? null : loadState === 'error' ? ('error' as const) : ('empty' as const);
 
   return (
     <>
@@ -26,16 +29,22 @@ export default function App() {
         </main>
       ) : null}
 
-      {error ? (
-        <main>
-          <p className="error">{error}</p>
-        </main>
-      ) : null}
-
       {!loading && data ? (
         <>
-          {route.path === '/' ? <DashboardPage contests={data.contests} /> : null}
-          {route.path === '/calendar' ? <CalendarPage contests={data.contests} /> : null}
+          {route.path === '/' ? (
+            <DashboardPage
+              contests={data.contests}
+              generatedAt={data.meta.generatedAt}
+              dataNoticeMode={dataNoticeMode}
+            />
+          ) : null}
+          {route.path === '/calendar' ? (
+            <CalendarPage
+              contests={data.contests}
+              generatedAt={data.meta.generatedAt}
+              dataNoticeMode={dataNoticeMode}
+            />
+          ) : null}
           {route.path === '/contest/:id' ? (
             <ContestDetailPage contests={data.contests} contestId={route.params.id} />
           ) : null}

@@ -1,10 +1,13 @@
 import { useEffect, useState } from 'react';
 import type { ContestsFile } from './types';
 
+export type ContestDataLoadState = 'ready' | 'empty' | 'error';
+
 type ContestDataState = {
   data: ContestsFile | null;
   loading: boolean;
   error: string | null;
+  loadState: ContestDataLoadState;
 };
 
 const EMPTY_DATA: ContestsFile = {
@@ -38,11 +41,16 @@ export async function loadContestData(): Promise<ContestsFile> {
   return payload;
 }
 
+function resolveLoadState(data: ContestsFile): ContestDataLoadState {
+  return data.contests.length === 0 ? 'empty' : 'ready';
+}
+
 export function useContestData(): ContestDataState {
   const [state, setState] = useState<ContestDataState>({
     data: null,
     loading: true,
-    error: null
+    error: null,
+    loadState: 'ready'
   });
 
   useEffect(() => {
@@ -51,12 +59,22 @@ export function useContestData(): ContestDataState {
     loadContestData()
       .then((data) => {
         if (active) {
-          setState({ data, loading: false, error: null });
+          setState({
+            data,
+            loading: false,
+            error: null,
+            loadState: resolveLoadState(data)
+          });
         }
       })
       .catch((error: Error) => {
         if (active) {
-          setState({ data: EMPTY_DATA, loading: false, error: error.message });
+          setState({
+            data: EMPTY_DATA,
+            loading: false,
+            error: error.message,
+            loadState: 'error'
+          });
         }
       });
 
