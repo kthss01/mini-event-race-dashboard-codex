@@ -25,7 +25,7 @@ function getRequiredEnv(name: string): string {
   return value;
 }
 
-function parseServiceAccount(rawJson: string): ServiceAccount {
+export function parseServiceAccount(rawJson: string): ServiceAccount {
   let parsed: unknown;
 
   try {
@@ -47,7 +47,46 @@ function parseServiceAccount(rawJson: string): ServiceAccount {
     );
   }
 
-  return parsed as ServiceAccount;
+  const serviceAccount = parsed as ServiceAccount;
+
+  return {
+    ...serviceAccount,
+    private_key: serviceAccount.private_key.replace(/\\n/g, '\n')
+  };
+}
+
+export function resolveGoogleDocFileId(input: string): string {
+  const value = input.trim();
+  if (!value) {
+    throw new Error('GOOGLE_DOC_FILE_ID is empty.');
+  }
+
+  if (!value.includes('/')) {
+    return value;
+  }
+
+  try {
+    const url = new URL(value);
+
+    const fromQuery = url.searchParams.get('id')?.trim();
+    if (fromQuery) {
+      return fromQuery;
+    }
+
+    const docMatch = url.pathname.match(/\/document\/d\/([^/]+)/);
+    if (docMatch?.[1]) {
+      return docMatch[1];
+    }
+
+    const driveMatch = url.pathname.match(/\/file\/d\/([^/]+)/);
+    if (driveMatch?.[1]) {
+      return driveMatch[1];
+    }
+  } catch {
+    // not a URL, fall back to raw value
+  }
+
+  return value;
 }
 
 function base64UrlEncode(input: string): string {
@@ -141,7 +180,7 @@ async function downloadDocumentText(fileId: string, accessToken: string): Promis
 
 async function main() {
   const serviceAccountJson = getRequiredEnv('GOOGLE_SERVICE_ACCOUNT_JSON');
-  const fileId = getRequiredEnv('GOOGLE_DOC_FILE_ID');
+  const fileId = resolveGoogleDocFileId(getRequiredEnv('GOOGLE_DOC_FILE_ID'));
   const serviceAccount = parseServiceAccount(serviceAccountJson);
 
   await mkdir(rawDir, { recursive: true });
@@ -157,7 +196,11 @@ async function main() {
   console.log('fetchDoc complete');
 }
 
-main().catch((error) => {
-  console.error(error instanceof Error ? error.message : String(error));
-  process.exitCode = 1;
-});
+const isMain = process.argv[1] ? path.resolve(process.argv[1]) === __filename : false;
+
+if (isMain) {
+  main().catch((error) => {
+    console.error(error instanceof Error ? error.message : String(error));
+    process.exitCode = 1;
+  });
+}

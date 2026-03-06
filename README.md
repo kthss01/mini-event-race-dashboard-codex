@@ -23,7 +23,14 @@ npm run build:data
   - Google 서비스 계정 JSON **원문 전체 문자열**
   - 필수 키: `client_email`, `private_key`
 - `GOOGLE_DOC_FILE_ID`
-  - 가져올 Google Docs 파일 ID
+  - 가져올 Google Docs 파일 ID (또는 문서 URL 전체도 허용)
+
+#### 입력값 팁 (자주 발생하는 오류)
+
+- `GOOGLE_SERVICE_ACCOUNT_JSON.private_key`에 `\n` 이스케이프 문자열이 포함되어 있어도 스크립트에서 실제 개행으로 자동 정규화합니다.
+- `GOOGLE_DOC_FILE_ID`에는 순수 파일 ID뿐 아니라 아래 URL 형태도 입력 가능합니다.
+  - `https://docs.google.com/document/d/<FILE_ID>/edit...`
+  - `https://drive.google.com/open?id=<FILE_ID>`
 
 #### 로컬 주입 경로
 
