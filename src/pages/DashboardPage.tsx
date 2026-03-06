@@ -3,8 +3,12 @@ import ContestCard from '../components/ContestCard';
 import Filters, { type FiltersValue } from '../components/Filters';
 import type { Contest } from '../lib/types';
 
+type DataNoticeMode = 'empty' | 'error';
+
 type DashboardPageProps = {
   contests: Contest[];
+  generatedAt: string;
+  dataNoticeMode: DataNoticeMode | null;
 };
 
 function within30Days(contest: Contest) {
@@ -38,7 +42,21 @@ function matchesFilters(contest: Contest, filters: FiltersValue) {
   return true;
 }
 
-export default function DashboardPage({ contests }: DashboardPageProps) {
+function formatGeneratedAt(value: string) {
+  const date = new Date(value);
+
+  if (Number.isNaN(date.getTime())) {
+    return '알 수 없음';
+  }
+
+  return date.toLocaleString('ko-KR', { timeZone: 'Asia/Seoul' });
+}
+
+export default function DashboardPage({
+  contests,
+  generatedAt,
+  dataNoticeMode
+}: DashboardPageProps) {
   const [filters, setFilters] = useState<FiltersValue>({
     sport: 'all',
     status: 'all',
@@ -65,15 +83,40 @@ export default function DashboardPage({ contests }: DashboardPageProps) {
     [filtered]
   );
 
+  const userNotice =
+    dataNoticeMode === 'error'
+      ? '대회 데이터를 불러오지 못했습니다. 잠시 후 다시 확인해 주세요.'
+      : '등록된 대회 일정이 아직 없습니다.';
+
+  const adminNotice =
+    dataNoticeMode === 'error'
+      ? '수집/파싱 파이프라인 실패 가능성이 있습니다. 데이터 소스와 배치 로그를 확인해 주세요.'
+      : '빈 일정 상태입니다. 신규 문서 반영 후 데이터를 다시 생성해 주세요.';
+
   return (
     <main>
       <h1>Mini Event Race Dashboard</h1>
       <p>다가오는 30일 대회를 확인하세요.</p>
+      <p className="meta-text">마지막 데이터 갱신: {formatGeneratedAt(generatedAt)}</p>
+
+      {dataNoticeMode ? (
+        <section className="data-notice" aria-live="polite">
+          <h2>데이터 없음</h2>
+          <p>{userNotice}</p>
+          <p className="admin-hint">
+            운영자 힌트: {adminNotice} 마지막 갱신 시점은 {formatGeneratedAt(generatedAt)}입니다.{' '}
+            <a href="/data-refresh-guide.html" target="_blank" rel="noreferrer">
+              갱신 방법 보기
+            </a>
+          </p>
+        </section>
+      ) : null}
+
       <Filters value={filters} sports={sports} onChange={setFilters} />
 
       <section>
         <h2>다가오는 30일</h2>
-        {upcoming.length === 0 ? <p>조건에 맞는 대회가 없습니다.</p> : null}
+        {!dataNoticeMode && upcoming.length === 0 ? <p>조건에 맞는 대회가 없습니다.</p> : null}
         <div className="contest-grid">
           {upcoming.map((contest) => (
             <ContestCard key={contest.id} contest={contest} />
