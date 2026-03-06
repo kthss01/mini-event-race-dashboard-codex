@@ -1,7 +1,14 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
-import type { Contest, ContestStatus, ContestsFile, Registration } from '../src/lib/types';
+import type {
+  Contest,
+  ContestStatus,
+  ContestsFile,
+  NoteItem,
+  NotesFile,
+  Registration
+} from '../src/lib/types';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -161,18 +168,12 @@ function isLikelyAmbiguous(name: string): boolean {
 
 export type ParseDocResult = {
   contestsFile: ContestsFile;
-  notesFile: {
-    meta: {
-      generatedAt: string;
-      version: number;
-    };
-    notes: string[];
-  };
+  notesFile: NotesFile;
 };
 
 export function parseDocText(doc: string, generatedAt = new Date().toISOString()): ParseDocResult {
   const contests: Contest[] = [];
-  const looseNotes: string[] = [];
+  const looseNotes: NoteItem[] = [];
   const idCounts = new Map<string, number>();
 
   let contextYear: number | undefined;
@@ -196,7 +197,13 @@ export function parseDocText(doc: string, generatedAt = new Date().toISOString()
     const dateMatch = line.match(DATE_LINE_REGEX);
 
     if (!dateMatch) {
-      looseNotes.push(line);
+      const idx = looseNotes.length + 1;
+      looseNotes.push({
+        id: `parse-note-${idx}`,
+        message: line,
+        source: 'parse',
+        createdAt: generatedAt
+      });
       continue;
     }
 
@@ -208,7 +215,13 @@ export function parseDocText(doc: string, generatedAt = new Date().toISOString()
     const startMonth = monthPart || contextMonth;
 
     if (!startMonth) {
-      looseNotes.push(line);
+      const idx = looseNotes.length + 1;
+      looseNotes.push({
+        id: `parse-note-${idx}`,
+        message: line,
+        source: 'parse',
+        createdAt: generatedAt
+      });
       continue;
     }
 
@@ -232,7 +245,13 @@ export function parseDocText(doc: string, generatedAt = new Date().toISOString()
       .filter((piece) => piece !== cleanedName);
 
     if (!cleanedName || isLikelyAmbiguous(cleanedName)) {
-      looseNotes.push(line);
+      const idx = looseNotes.length + 1;
+      looseNotes.push({
+        id: `parse-note-${idx}`,
+        message: line,
+        source: 'parse',
+        createdAt: generatedAt
+      });
       continue;
     }
 

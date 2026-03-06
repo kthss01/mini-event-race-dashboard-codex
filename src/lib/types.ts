@@ -55,5 +55,15 @@ export type NotesFile = {
     generatedAt: string;
     version: number;
   };
-  notes: string[];
+  notes: NoteItem[];
+};
+
+export type NoteSource = 'parse' | 'enrich' | 'migration';
+
+export type NoteItem = {
+  id: string;
+  message: string;
+  source: NoteSource;
+  createdAt: string;
+  contestId?: string;
 };
