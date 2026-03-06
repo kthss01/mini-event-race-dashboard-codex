@@ -1,18 +1,6 @@
 import contestsData from '../../data/contests.json';
+import type { ContestsFile } from './types';
 
-type Contest = {
-  id: string;
-  name: string;
-};
-
-type ContestPayload = {
-  meta: {
-    generatedAt: string;
-    version: number;
-  };
-  contests: Contest[];
-};
-
-export function getContestData(): ContestPayload {
-  return contestsData as ContestPayload;
+export function getContestData(): ContestsFile {
+  return contestsData as ContestsFile;
 }
