@@ -83,6 +83,11 @@ export default function DashboardPage({
     [filtered]
   );
 
+  const allContests = useMemo(
+    () => [...filtered].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()),
+    [filtered]
+  );
+
   const userNotice =
     dataNoticeMode === 'error'
       ? '대회 데이터를 불러오지 못했습니다. 잠시 후 다시 확인해 주세요.'
@@ -123,6 +128,18 @@ export default function DashboardPage({
           ))}
         </div>
       </section>
+
+      {!dataNoticeMode ? (
+        <section>
+          <h2>전체 대회 ({allContests.length})</h2>
+          {allContests.length === 0 ? <p>조건에 맞는 대회가 없습니다.</p> : null}
+          <div className="contest-grid">
+            {allContests.map((contest) => (
+              <ContestCard key={`all-${contest.id}`} contest={contest} />
+            ))}
+          </div>
+        </section>
+      ) : null}
     </main>
   );
 }
