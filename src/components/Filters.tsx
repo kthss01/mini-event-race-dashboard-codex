@@ -22,7 +22,7 @@ const STATUSES: Array<{ value: ContestStatus | 'all'; label: string }> = [
   { value: 'cancelled', label: '취소' },
   { value: 'no_show', label: '불참' },
   { value: 'not_applied', label: '미신청' },
-  { value: 'scheduled', label: '예정' },
+  { value: 'scheduled', label: '예정' }
 ];
 
 export type { FiltersValue };
@@ -32,7 +32,10 @@ export default function Filters({ value, sports, onChange }: FiltersProps) {
     <section className="filters">
       <label>
         종목
-        <select value={value.sport} onChange={(event) => onChange({ ...value, sport: event.target.value })}>
+        <select
+          value={value.sport}
+          onChange={(event) => onChange({ ...value, sport: event.target.value })}
+        >
           <option value="all">전체 종목</option>
           {sports.map((sport) => (
             <option key={sport} value={sport}>
@@ -46,7 +49,9 @@ export default function Filters({ value, sports, onChange }: FiltersProps) {
         상태
         <select
           value={value.status}
-          onChange={(event) => onChange({ ...value, status: event.target.value as FiltersValue['status'] })}
+          onChange={(event) =>
+            onChange({ ...value, status: event.target.value as FiltersValue['status'] })
+          }
         >
           {STATUSES.map((status) => (
             <option key={status.value} value={status.value}>

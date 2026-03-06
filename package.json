@@ -14,7 +14,10 @@
     "build:data": "tsx scripts/buildData.ts",
     "fetch:doc": "tsx scripts/fetchDoc.ts",
     "parse:doc": "tsx scripts/parseDoc.ts",
-    "enrich:data": "tsx scripts/enrich.ts"
+    "enrich:data": "tsx scripts/enrich.ts",
+    "test": "node --import tsx --test scripts/__tests__/parseDoc.test.ts",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -31,6 +34,7 @@
     "eslint-plugin-react-refresh": "^0.4.9",
     "tsx": "^4.19.2",
     "typescript": "^5.5.4",
-    "vite": "^5.4.0"
+    "vite": "^5.4.0",
+    "prettier": "^3.3.3"
   }
 }

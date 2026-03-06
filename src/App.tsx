@@ -36,7 +36,9 @@ export default function App() {
         <>
           {route.path === '/' ? <DashboardPage contests={data.contests} /> : null}
           {route.path === '/calendar' ? <CalendarPage contests={data.contests} /> : null}
-          {route.path === '/contest/:id' ? <ContestDetailPage contests={data.contests} contestId={route.params.id} /> : null}
+          {route.path === '/contest/:id' ? (
+            <ContestDetailPage contests={data.contests} contestId={route.params.id} />
+          ) : null}
         </>
       ) : null}
     </>

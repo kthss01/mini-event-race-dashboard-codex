@@ -64,7 +64,15 @@ export function navigateTo(path: string) {
   window.dispatchEvent(new Event('popstate'));
 }
 
-export function RouterLink({ to, children, className }: { to: string; children: ReactNode; className?: string }) {
+export function RouterLink({
+  to,
+  children,
+  className
+}: {
+  to: string;
+  children: ReactNode;
+  className?: string;
+}) {
   const href = withBase(to);
 
   return (

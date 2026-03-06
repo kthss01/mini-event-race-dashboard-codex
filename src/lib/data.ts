@@ -10,13 +10,16 @@ type ContestDataState = {
 const EMPTY_DATA: ContestsFile = {
   meta: {
     generatedAt: new Date(0).toISOString(),
-    version: 1,
+    version: 1
   },
-  contests: [],
+  contests: []
 };
 
 function buildContestsUrl() {
-  return new URL('data/contests.json', window.location.origin + import.meta.env.BASE_URL).toString();
+  return new URL(
+    'data/contests.json',
+    window.location.origin + import.meta.env.BASE_URL
+  ).toString();
 }
 
 export async function loadContestData(): Promise<ContestsFile> {
@@ -39,7 +42,7 @@ export function useContestData(): ContestDataState {
   const [state, setState] = useState<ContestDataState>({
     data: null,
     loading: true,
-    error: null,
+    error: null
   });
 
   useEffect(() => {
