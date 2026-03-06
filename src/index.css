@@ -13,8 +13,183 @@ body {
   margin: 0;
 }
 
+a {
+  color: #2563eb;
+}
+
 main {
   max-width: 960px;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 1.5rem 1rem 2rem;
+}
+
+.app-header {
+  border-bottom: 1px solid #e2e8f0;
+  background: #fff;
+}
+
+.app-header nav {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.error {
+  color: #b91c1c;
+}
+
+.filters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0 1.5rem;
+  padding: 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  background: #fff;
+}
+
+.filters label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.9rem;
+}
+
+.filters .checkbox {
+  flex-direction: row;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+input,
+select {
+  height: 2.25rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.5rem;
+  padding: 0 0.5rem;
+}
+
+.contest-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.contest-card {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 1rem;
+}
+
+.contest-card-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.contest-card-header h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.contest-meta {
+  margin: 0.5rem 0;
+  color: #475569;
+}
+
+.contest-note {
+  margin: 0;
+  color: #334155;
+}
+
+.status-badge {
+  display: inline-flex;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  border: 1px solid transparent;
+}
+
+.status-registration_open,
+.status-scheduled {
+  background: #e0f2fe;
+  border-color: #7dd3fc;
+}
+
+.status-registration_closed,
+.status-not_applied {
+  background: #ede9fe;
+  border-color: #c4b5fd;
+}
+
+.status-paid {
+  background: #dcfce7;
+  border-color: #86efac;
+}
+
+.status-refunded,
+.status-cancelled,
+.status-no_show {
+  background: #fee2e2;
+  border-color: #fca5a5;
+}
+
+.calendar-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.calendar-day {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 0.75rem 1rem;
+}
+
+.calendar-day h3 {
+  margin: 0 0 0.5rem;
+}
+
+.calendar-day ul {
+  margin: 0;
+  padding-left: 1rem;
+  display: grid;
+  gap: 0.35rem;
+}
+
+.calendar-badge {
+  margin-right: 0.4rem;
+}
+
+.button-link {
+  display: inline-block;
+  padding: 0.45rem 0.75rem;
+  border-radius: 0.5rem;
+  background: #2563eb;
+  color: #fff;
+  text-decoration: none;
+}
+
+.contest-image,
+.image-placeholder {
+  width: min(100%, 520px);
+  aspect-ratio: 16 / 9;
+  border-radius: 0.75rem;
+  border: 1px solid #cbd5e1;
+}
+
+.contest-image {
+  object-fit: cover;
+}
+
+.image-placeholder {
+  display: grid;
+  place-items: center;
+  color: #64748b;
+  background: #f1f5f9;
 }

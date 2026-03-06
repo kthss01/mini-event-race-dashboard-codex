@@ -31,6 +31,7 @@ export type Media = {
 export type Contest = {
   id: string;
   name: string;
+  sport?: string;
   date: string;
   endDate?: string;
   status: ContestStatus;
