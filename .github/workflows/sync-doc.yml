@@ -26,13 +26,29 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Validate required secrets
+        id: required-secrets
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          GOOGLE_DOC_FILE_ID: ${{ secrets.GOOGLE_DOC_FILE_ID }}
+        run: |
+          if [ -z "$GOOGLE_SERVICE_ACCOUNT_JSON" ] || [ -z "$GOOGLE_DOC_FILE_ID" ]; then
+            echo "has_secrets=false" >> "$GITHUB_OUTPUT"
+            echo "Skipping sync: required Google secrets are not configured."
+            exit 0
+          fi
+
+          echo "has_secrets=true" >> "$GITHUB_OUTPUT"
+
       - name: Build data from Google Doc
+        if: steps.required-secrets.outputs.has_secrets == 'true'
         env:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
           GOOGLE_DOC_FILE_ID: ${{ secrets.GOOGLE_DOC_FILE_ID }}
         run: npm run build:data -- --fetch --parse
 
       - name: Commit and push changes
+        if: steps.required-secrets.outputs.has_secrets == 'true'
         run: |
           if [ -z "$(git status --porcelain)" ]; then
             echo "No changes detected."
