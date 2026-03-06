@@ -78,9 +78,8 @@ function signJwt(serviceAccount: ServiceAccount): string {
   signer.update(toSign);
   signer.end();
 
-  const signature = signer
-    .sign(serviceAccount.private_key)
-    .toString('base64')
+  const signatureBytes = signer.sign(serviceAccount.private_key);
+  const signature = btoa(String.fromCharCode(...signatureBytes))
     .replace(/=/g, '')
     .replace(/\+/g, '-')
     .replace(/\//g, '_');
