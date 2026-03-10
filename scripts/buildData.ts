@@ -1,4 +1,4 @@
-import { readFile } from 'node:fs/promises';
+import { copyFile, mkdir, readFile } from 'node:fs/promises';
 import { spawn } from 'node:child_process';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -7,6 +7,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, '..');
 const hashPath = path.join(rootDir, 'data', 'raw', 'doc.sha256');
+const dataDir = path.join(rootDir, 'data');
+const publicDataDir = path.join(rootDir, 'public', 'data');
 
 function run(scriptName: string): Promise<void> {
   return new Promise((resolve, reject) => {
@@ -38,6 +40,13 @@ async function readHashDigest(): Promise<string | null> {
   return digest || null;
 }
 
+async function syncPublicData() {
+  await mkdir(publicDataDir, { recursive: true });
+  await copyFile(path.join(dataDir, 'contests.json'), path.join(publicDataDir, 'contests.json'));
+  await copyFile(path.join(dataDir, 'notes.json'), path.join(publicDataDir, 'notes.json'));
+  console.log('build:data synced data/*.json -> public/data/*.json');
+}
+
 async function main() {
   const hasFetchFlag = process.argv.includes('--fetch');
   const hasParseFlag = process.argv.includes('--parse');
@@ -56,6 +65,7 @@ async function main() {
 
   if (shouldParse) {
     if (shouldFetch && hashBeforeFetch && hashAfterFetch && hashBeforeFetch === hashAfterFetch) {
+      await syncPublicData();
       console.log('build:data no-op (doc.sha256 unchanged, skipped parse/enrich)');
       return;
     }
@@ -63,6 +73,7 @@ async function main() {
     await run('parse:doc');
     await run('enrich:data');
     await run('validate:data');
+    await syncPublicData();
   }
 
   if (shouldFetch && !shouldParse) {
