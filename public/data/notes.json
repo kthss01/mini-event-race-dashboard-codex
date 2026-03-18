@@ -1,4862 +1,4874 @@
 {
   "meta": {
-    "generatedAt": "2026-03-16T07:10:00.435Z",
+    "generatedAt": "2026-03-18T06:56:26.753Z",
     "version": 1
   },
   "notes": [
     {
-      "id": "parse-note-202",
+      "id": "parse-note-204",
       "message": "-> 25.07.26(토)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-67",
+      "id": "parse-note-69",
       "message": "-> 결재 취소함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-622",
+      "id": "parse-note-624",
       "message": "-> 금액 입금",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-200",
+      "id": "parse-note-202",
       "message": "-> 놓침",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-211",
+      "id": "parse-note-213",
       "message": "-> 신청 못함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-355",
+      "id": "parse-note-357",
       "message": "-> 이건 고민해보자 할지말지",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-214",
+      "id": "parse-note-216",
       "message": "-> 일정 변경 25.10.25(토)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-207",
+      "id": "parse-note-209",
       "message": "-> 일정겹침 다른 대회 생각",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-210",
-      "message": "-> 일정조정 생각중",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-602",
-      "message": "-> 입금 완료",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-610",
-      "message": "-> 참가함",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-212",
-      "message": "-> 취소",
+      "message": "-> 일정조정 생각중",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-215",
-      "message": "-> 취소",
+      "id": "parse-note-604",
+      "message": "-> 입금 완료",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-42",
+      "id": "parse-note-612",
+      "message": "-> 참가함",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-214",
+      "message": "-> 취소",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-217",
+      "message": "-> 취소",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-44",
       "message": "-> 취소 가능해서 취소 신청함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-627",
+      "id": "parse-note-629",
       "message": "-> 프로젝트 오픈 확인",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-201",
+      "id": "parse-note-203",
       "message": "-> 환불",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-85",
       "message": "(목)~25.09.27(토) 천호자전거거리 챌린지 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-09-18_목250927토-천호자전거거리-챌린지"
     },
     {
       "id": "enrich-note-19",
       "message": "(목)~25.09.27(토) is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2025-09-18_목250927토"
     },
     {
       "id": "enrich-note-76",
       "message": "(토)~06(일) 롯데아쿠아슬론 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-07-05_토06일-롯데아쿠아슬론"
     },
     {
       "id": "enrich-note-57",
       "message": "(토)~17(일) 울트라마라톤 100km -> is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-05-16_토17일-울트라마라톤-100km-"
     },
     {
       "id": "enrich-note-58",
       "message": "(토)~17(일) 제7회 양산시장배 황산 전국 철인3종 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-05-16_토17일-제7회-양산시장배-황산-전국-철인3종"
     },
     {
       "id": "enrich-note-22",
       "message": "(화)부터 선착순 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-01-27_화부터-선착순"
     },
     {
-      "id": "parse-note-189",
+      "id": "parse-note-191",
       "message": "> 군산 새만금 퍼머넌트",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-190",
+      "id": "parse-note-192",
       "message": "> 못함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-191",
+      "id": "parse-note-193",
       "message": "> 못함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-433",
+      "id": "parse-note-435",
       "message": "> 못함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-24",
       "message": "~ 03.03(월) 자전거 여행 -> 퍼머넌트 -> 우천 > 야라 도전 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-03-01_0303월-자전거-여행-퍼머넌트-우천-야라-도전"
     },
     {
       "id": "enrich-note-48",
       "message": "~ 03(일) 부산 낙동강 슬로우철인3종 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-05-02_03일-부산-낙동강-슬로우철인3종"
     },
     {
       "id": "enrich-note-49",
       "message": "~ 03(일) 제6회 창원특례시 마산만 전국 트라이애슬론 대회 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-05-02_03일-제6회-창원특례시-마산만-전국-트라이애슬론-대회"
     },
     {
       "id": "enrich-note-50",
       "message": "~ 06(화) 국토종주 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-05-03_06화-국토종주"
     },
     {
       "id": "enrich-note-99",
       "message": "~ 11.02(일) 울진 철인3종 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-11-01_1102일-울진-철인3종"
     },
     {
       "id": "enrich-note-96",
       "message": "~ 25.10.19(일) 고령 대가야 철인3종 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-10-18_251019일-고령-대가야-철인3종"
     },
     {
-      "id": "parse-note-112",
+      "id": "parse-note-114",
       "message": "01.14(수) 접수",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-4",
       "message": "02.04(화) 추가 예정 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2025-04-05_0204화-추가-예정"
     },
     {
-      "id": "parse-note-632",
+      "id": "parse-note-634",
       "message": "02.21(금) 부터 접수",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-75",
+      "id": "parse-note-77",
       "message": "02.25 14시 선착순 접수",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-615",
+      "id": "parse-note-617",
       "message": "02.28(금) 10시 접수",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-106",
+      "id": "parse-note-108",
       "message": "03.15 서울 마라톤 일정 등록함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-553",
+      "id": "parse-note-555",
       "message": "03.19(수) 오전 11시 접수 시작",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-510",
+      "id": "parse-note-512",
       "message": "05.24(토)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-489",
+      "id": "parse-note-491",
       "message": "05.25(일) 구리 마라톤 있음",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-338",
+      "id": "parse-note-340",
       "message": "07.22(화) 14시 접수",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-10",
       "message": "07시 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2025-05-25_07시"
     },
     {
-      "id": "parse-note-656",
+      "id": "parse-note-658",
       "message": "07시쯤 생각하자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-7",
       "message": "08시 홍천 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2025-04-19_08시-홍천"
     },
     {
-      "id": "parse-note-337",
+      "id": "parse-note-339",
       "message": "09.21(일) 세븐브릿지 투어한다고함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-121",
+      "id": "parse-note-123",
       "message": "1.5km 3.8km 대회 있음",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-115",
+      "id": "parse-note-117",
       "message": "1.5km 안양장거리 수영대회",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-122",
+      "id": "parse-note-124",
       "message": "1.5km 정도 참여해보거나",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-252",
+      "id": "parse-note-254",
       "message": "10.01까지 환불 가능",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-329",
+      "id": "parse-note-331",
       "message": "10.19",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-1",
       "message": "10시 예정 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2025-02-12_10시-예정"
     },
     {
-      "id": "parse-note-208",
+      "id": "parse-note-210",
       "message": "10월",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-397",
+      "id": "parse-note-399",
       "message": "10km 반팔 XL",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-226",
+      "id": "parse-note-228",
       "message": "10km 참가비 4만원이라고 함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-606",
+      "id": "parse-note-608",
       "message": "10km 할지 하프할지 고민해보자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-429",
+      "id": "parse-note-431",
       "message": "10km말고 하프노려보자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-18",
       "message": "11:00 부터 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2025-08-19_1100-부터"
     },
     {
       "id": "enrich-note-13",
       "message": "11시부터 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2025-06-19_11시부터"
     },
     {
-      "id": "parse-note-213",
+      "id": "parse-note-215",
       "message": "11월",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-229",
+      "id": "parse-note-231",
       "message": "12월7일 물품 당일 수령이라고 함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-2",
       "message": "14:00 선착순 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2025-03-19_1400-선착순"
     },
     {
       "id": "enrich-note-14",
       "message": "14:00 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2025-06-26_1400"
     },
     {
       "id": "enrich-note-15",
       "message": "14시 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2025-06-26_14시"
     },
     {
-      "id": "parse-note-573",
+      "id": "parse-note-575",
       "message": "15 에 군산 차 끌고 가서 란도너스 하고",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-458",
+      "id": "parse-note-460",
       "message": "18시 접수 관련해서 준비해서 다녀오자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-17",
       "message": "19:00 42k 및 결재 완료 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2025-08-02_1900-42k-및-결재-완료"
     },
     {
       "id": "enrich-note-11",
       "message": "19시 ~ 25.06.06 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2025-06-02_19시-250606"
     },
     {
-      "id": "parse-note-223",
+      "id": "parse-note-225",
       "message": "1월5일 개통하는데 12월7일 러닝 대회를 연다고함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-646",
+      "id": "parse-note-648",
       "message": "2.15(토)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-187",
+      "id": "parse-note-189",
       "message": "2.15(토) 란도너스 벡터",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-652",
+      "id": "parse-note-654",
       "message": "2.7(금) 10시 접수이니 준비해보자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-5",
       "message": "200km 브레베 참가 및 완주",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-654",
+      "id": "parse-note-656",
       "message": "201km 12시간내",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-353",
+      "id": "parse-note-355",
       "message": "2022.11.01(토)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-167",
+      "id": "parse-note-169",
       "message": "2025",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-330",
-      "message": "2025 비앙키 그란폰도 춘천 https://share.google/M2BQV299DtuOYZkKA",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-241",
-      "message": "2025 서울 스포츠 자전거 라이딩 신청함",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-505",
-      "message": "2025 제14회 삼척이사부장군배 전국바다수영대회",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-536",
-      "message": "2025 천호 자전거 챌린지",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-270",
-      "message": "2025 천호자전거거리 가을바람 라이딩 챌린지 https://share.google/zb2u2c9FzSTS4zSN0",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-287",
-      "message": "2025 천호자전거거리 벚꽃 라이딩 챌린지 https://share.google/MpQQIUglygkEenlTW",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-384",
-      "message": "2025 춘마 2025.10.26",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-547",
-      "message": "2025 춘천 배후령 메디오폰도는 환불신청함",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-391",
-      "message": "2025 한글런 (세종) 신청 및 입금",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-667",
-      "message": "2025.01.08(수)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-657",
-      "message": "2025.01.22(수)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-648",
-      "message": "2025.02.05(수)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-642",
-      "message": "2025.02.07(금)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-640",
-      "message": "2025.02.08(토)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-636",
-      "message": "2025.02.11(화)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-629",
-      "message": "2025.02.12(수)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-625",
-      "message": "2025.02.19(수)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-617",
-      "message": "2025.02.25(화)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-613",
-      "message": "2025.02.26(수)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-604",
-      "message": "2025.02.27(목)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-595",
-      "message": "2025.02.28(금)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-592",
-      "message": "2025.03.03(월)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-587",
-      "message": "2025.03.04(화)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-583",
-      "message": "2025.03.05(수)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-581",
-      "message": "2025.03.06(목)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-570",
-      "message": "2025.03.08(토)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-558",
-      "message": "2025.03.10(월)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-556",
-      "message": "2025.03.11(화)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-549",
-      "message": "2025.03.12(수)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-541",
-      "message": "2025.03.19(수)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-534",
-      "message": "2025.03.21(금)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-590",
-      "message": "2025.03.29(토)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-530",
-      "message": "2025.04.02(수)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-527",
-      "message": "2025.04.08(화)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-519",
-      "message": "2025.04.09(수)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-517",
-      "message": "2025.04.10(목)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-509",
-      "message": "2025.04.20(일)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-552",
-      "message": "2025.04.20(일)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-502",
-      "message": "2025.04.21(월)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-498",
-      "message": "2025.05.02(금)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-492",
-      "message": "2025.05.05(월)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-486",
-      "message": "2025.05.08(목)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-473",
-      "message": "2025.05.09(금)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-463",
-      "message": "2025.05.12(월)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-459",
-      "message": "2025.05.15(목)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-456",
-      "message": "2025.05.21(수)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-450",
-      "message": "2025.05.27(화)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-446",
-      "message": "2025.05.29(목)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-438",
-      "message": "2025.06.02(월)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-434",
-      "message": "2025.06.03(화)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-426",
-      "message": "2025.06.04(수)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-422",
-      "message": "2025.06.09(월)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-417",
-      "message": "2025.06.15(일)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-395",
-      "message": "2025.06.16(월)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-389",
-      "message": "2025.06.17(화)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-381",
-      "message": "2025.06.18(수)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-371",
-      "message": "2025.06.19(목)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-368",
-      "message": "2025.07.01(화)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-359",
-      "message": "2025.07.04(금)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-356",
-      "message": "2025.07.08(화)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-347",
-      "message": "2025.07.11(금)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-507",
-      "message": "2025.07.12(토)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-344",
-      "message": "2025.07.15(화)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-339",
-      "message": "2025.07.17(목)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-335",
-      "message": "2025.07.19(토)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-332",
-      "message": "2025.07.21(월)",
+      "message": "2025 비앙키 그란폰도 춘천 https://share.google/M2BQV299DtuOYZkKA",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-315",
-      "message": "2025.07.22(화)",
+      "id": "parse-note-243",
+      "message": "2025 서울 스포츠 자전거 라이딩 신청함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-312",
-      "message": "2025.07.23(수)",
+      "id": "parse-note-507",
+      "message": "2025 제14회 삼척이사부장군배 전국바다수영대회",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-310",
-      "message": "2025.07.25(금)",
+      "id": "parse-note-538",
+      "message": "2025 천호 자전거 챌린지",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-306",
-      "message": "2025.07.26(토)",
+      "id": "parse-note-272",
+      "message": "2025 천호자전거거리 가을바람 라이딩 챌린지 https://share.google/zb2u2c9FzSTS4zSN0",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-298",
-      "message": "2025.07.29(화)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-296",
-      "message": "2025.07.30(수)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-289",
+      "message": "2025 천호자전거거리 벚꽃 라이딩 챌린지 https://share.google/MpQQIUglygkEenlTW",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-386",
+      "message": "2025 춘마 2025.10.26",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-549",
+      "message": "2025 춘천 배후령 메디오폰도는 환불신청함",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-393",
+      "message": "2025 한글런 (세종) 신청 및 입금",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-669",
+      "message": "2025.01.08(수)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-659",
+      "message": "2025.01.22(수)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-650",
+      "message": "2025.02.05(수)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-644",
+      "message": "2025.02.07(금)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-642",
+      "message": "2025.02.08(토)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-638",
+      "message": "2025.02.11(화)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-631",
+      "message": "2025.02.12(수)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-627",
+      "message": "2025.02.19(수)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-619",
+      "message": "2025.02.25(화)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-615",
+      "message": "2025.02.26(수)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-606",
+      "message": "2025.02.27(목)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-597",
+      "message": "2025.02.28(금)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-594",
+      "message": "2025.03.03(월)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-589",
+      "message": "2025.03.04(화)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-585",
+      "message": "2025.03.05(수)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-583",
+      "message": "2025.03.06(목)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-572",
+      "message": "2025.03.08(토)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-560",
+      "message": "2025.03.10(월)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-558",
+      "message": "2025.03.11(화)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-551",
+      "message": "2025.03.12(수)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-543",
+      "message": "2025.03.19(수)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-536",
+      "message": "2025.03.21(금)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-592",
+      "message": "2025.03.29(토)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-532",
+      "message": "2025.04.02(수)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-529",
+      "message": "2025.04.08(화)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-521",
+      "message": "2025.04.09(수)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-519",
+      "message": "2025.04.10(목)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-511",
+      "message": "2025.04.20(일)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-554",
+      "message": "2025.04.20(일)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-504",
+      "message": "2025.04.21(월)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-500",
+      "message": "2025.05.02(금)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-494",
+      "message": "2025.05.05(월)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-488",
+      "message": "2025.05.08(목)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-475",
+      "message": "2025.05.09(금)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-465",
+      "message": "2025.05.12(월)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-461",
+      "message": "2025.05.15(목)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-458",
+      "message": "2025.05.21(수)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-452",
+      "message": "2025.05.27(화)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-448",
+      "message": "2025.05.29(목)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-440",
+      "message": "2025.06.02(월)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-436",
+      "message": "2025.06.03(화)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-428",
+      "message": "2025.06.04(수)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-424",
+      "message": "2025.06.09(월)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-419",
+      "message": "2025.06.15(일)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-397",
+      "message": "2025.06.16(월)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-391",
+      "message": "2025.06.17(화)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-383",
+      "message": "2025.06.18(수)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-373",
+      "message": "2025.06.19(목)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-370",
+      "message": "2025.07.01(화)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-361",
+      "message": "2025.07.04(금)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-358",
+      "message": "2025.07.08(화)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-349",
+      "message": "2025.07.11(금)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-509",
+      "message": "2025.07.12(토)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-346",
+      "message": "2025.07.15(화)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-341",
+      "message": "2025.07.17(목)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-337",
+      "message": "2025.07.19(토)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-334",
+      "message": "2025.07.21(월)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-317",
+      "message": "2025.07.22(화)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-314",
+      "message": "2025.07.23(수)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-312",
+      "message": "2025.07.25(금)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-308",
+      "message": "2025.07.26(토)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-300",
+      "message": "2025.07.29(화)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-298",
+      "message": "2025.07.30(수)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-291",
       "message": "2025.08.01(금)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-284",
+      "id": "parse-note-286",
       "message": "2025.08.05(화)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-281",
+      "id": "parse-note-283",
       "message": "2025.08.08(금)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-278",
+      "id": "parse-note-280",
       "message": "2025.08.13(수)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-274",
+      "id": "parse-note-276",
       "message": "2025.08.18(월)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-270",
+      "message": "2025.08.19(화)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-268",
-      "message": "2025.08.19(화)",
+      "message": "2025.08.20(수)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-266",
-      "message": "2025.08.20(수)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-264",
       "message": "2025.08.21(목)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-260",
+      "id": "parse-note-262",
       "message": "2025.08.28(목)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-256",
+      "id": "parse-note-258",
       "message": "2025.09.03(수)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-249",
+      "id": "parse-note-251",
       "message": "2025.09.04(목)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-246",
+      "id": "parse-note-248",
       "message": "2025.09.05(금)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-240",
+      "id": "parse-note-242",
       "message": "2025.09.09(화)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-400",
+      "id": "parse-note-402",
       "message": "2025.09.14(일)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-350",
+      "id": "parse-note-352",
       "message": "2025.09.27(토)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-168",
+      "id": "parse-note-170",
       "message": "2025년 참여할 대회들을 한번에 총집합해서 관리해보자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-1",
       "message": "2026",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-93",
       "message": "2026 산티니 충주그란폰도 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-10-03_2026-산티니-충주그란폰도"
     },
     {
       "id": "enrich-note-27",
       "message": "2026 서울 마라톤 10km is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-03-15_2026-서울-마라톤-10km"
     },
     {
-      "id": "parse-note-396",
+      "id": "parse-note-398",
       "message": "2026 서울마라톤 기념품 선택",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-460",
+      "id": "parse-note-462",
       "message": "2026 서울마라톤 풀코스 우선접수접수",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-580",
+      "id": "parse-note-582",
       "message": "20km 1시간이면 갈듯",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-64",
+      "id": "parse-note-66",
       "message": "21일에 신청함 - 접수 확인",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-575",
+      "id": "parse-note-577",
       "message": "22 광주 수원에서 출발해서 란도너스 하고 수원으로 가고",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-87",
       "message": "22) is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-09-21_22"
     },
     {
-      "id": "parse-note-364",
+      "id": "parse-note-366",
       "message": "22일 정식 판매라고함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-415",
+      "id": "parse-note-417",
       "message": "23000원이고",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-660",
+      "id": "parse-note-662",
       "message": "24.04.26(토)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-524",
+      "id": "parse-note-526",
       "message": "25.04.14(월)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-594",
+      "id": "parse-note-596",
       "message": "25.05.06(화)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-482",
+      "id": "parse-note-484",
       "message": "25.06.21(토)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-585",
+      "id": "parse-note-587",
       "message": "25.07.06(일)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-525",
+      "id": "parse-note-527",
       "message": "25.07.19(토), 25.07.20(일) 익산 아쿠아슬론",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-493",
+      "id": "parse-note-495",
       "message": "25.09.06(토)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-236",
+      "id": "parse-note-238",
       "message": "25.09.16(화)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-322",
+      "message": "25.09.20",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-362",
+      "message": "25.09.21 에",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-235",
+      "message": "25.09.29(월)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-408",
+      "message": "25.10.18(토)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-320",
-      "message": "25.09.20",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-360",
-      "message": "25.09.21 에",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-233",
-      "message": "25.09.29(월)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-406",
-      "message": "25.10.18(토)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-318",
       "message": "25.10.19",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-230",
+      "id": "parse-note-232",
       "message": "25.10.27(월)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-163",
+      "id": "parse-note-165",
       "message": "25.11.16(일)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-160",
+      "id": "parse-note-162",
       "message": "25.11.17(월)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-221",
+      "id": "parse-note-223",
       "message": "25.11.24(월)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-216",
+      "id": "parse-note-218",
       "message": "25.11.26(수)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-152",
+      "id": "parse-note-154",
       "message": "25.12.02(화)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-146",
+      "id": "parse-note-148",
       "message": "25.12.08(월)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-138",
+      "id": "parse-note-140",
       "message": "25.12.11(목)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-137",
+      "message": "25.12.12(금)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-135",
-      "message": "25.12.12(금)",
+      "message": "25.12.17(수)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-133",
-      "message": "25.12.17(수)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-131",
       "message": "25.12.19(금)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-117",
+      "id": "parse-note-119",
       "message": "25.12.31(수)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-14",
       "message": "26. 06. 21(일) - 한강 크로스 스위밍 대회",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-114",
+      "id": "parse-note-116",
       "message": "26.01.10(토)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-111",
+      "message": "26.01.12(월)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-109",
-      "message": "26.01.12(월)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-107",
       "message": "26.01.13(화)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-102",
+      "message": "26.01.19(월)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-100",
-      "message": "26.01.19(월)",
+      "message": "26.01.21(수)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-142",
+      "message": "26.01.25(일)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-98",
-      "message": "26.01.21(수)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-140",
-      "message": "26.01.25(일)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-96",
       "message": "26.01.27(화)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-87",
+      "id": "parse-note-89",
       "message": "26.02.03(화)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-83",
+      "id": "parse-note-85",
       "message": "26.02.05(목)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-80",
+      "id": "parse-note-82",
       "message": "26.02.11(수)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-78",
+      "message": "26.02.13(금)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-76",
-      "message": "26.02.13(금)",
+      "message": "26.02.24(화)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-74",
-      "message": "26.02.24(화)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-72",
       "message": "26.02.25(수)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-69",
+      "id": "parse-note-71",
       "message": "26.02.26(목)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-55",
+      "id": "parse-note-57",
       "message": "26.02.27(금)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-52",
+      "id": "parse-note-54",
       "message": "26.02.28(토)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-46",
+      "id": "parse-note-48",
       "message": "26.03.02(화)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-29",
+      "id": "parse-note-31",
       "message": "26.03.03(수)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-26",
+      "id": "parse-note-28",
       "message": "26.03.04(목)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-20",
+      "id": "parse-note-22",
       "message": "26.03.06(금)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-19",
+      "message": "26.03.11(수)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-17",
-      "message": "26.03.11(수)",
+      "message": "26.03.16(월)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-15",
-      "message": "26.03.16(월)",
+      "message": "26.03.18(수)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-2",
       "message": "26년 대회 목표 - 업데이트 기준일 : 25.10.21",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-436",
+      "id": "parse-note-438",
       "message": "26년 서울마라톤 우선접수함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-576",
+      "id": "parse-note-578",
       "message": "29 경남고성 통영으로 수원에서 출발하고",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-628",
+      "id": "parse-note-630",
       "message": "2단계 4.21 오픈임",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-186",
+      "id": "parse-note-188",
       "message": "2월",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-44",
+      "id": "parse-note-46",
       "message": "3.11날 접수임",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-618",
+      "id": "parse-note-620",
       "message": "3.1절 자전거 여행 우천으로 계획 취소",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-586",
+      "id": "parse-note-588",
       "message": "3.6(목) 11시부터 접수 진행",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-123",
+      "id": "parse-note-125",
       "message": "3.8km 노려도 좋을듯",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-6",
       "message": "300km 브레베 완주",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-188",
+      "id": "parse-note-190",
       "message": "3월",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-148",
+      "id": "parse-note-150",
       "message": "3월 1일 목표로 하면 3개월 준비이다",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-682",
+      "message": "3월 중순에 동호회 대회 생각 중",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-680",
-      "message": "3월 중순에 동호회 대회 생각 중",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-678",
       "message": "3월쯤 신청 받았다고 함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-192",
+      "id": "parse-note-194",
       "message": "4월",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-36",
+      "id": "parse-note-38",
       "message": "5,6월을 봐야할듯",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-520",
+      "id": "parse-note-522",
       "message": "5.11(일) 서울자전거 대행진 한다고함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-488",
+      "id": "parse-note-490",
       "message": "5.12(월) 10시 오픈",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-154",
+      "id": "parse-note-156",
       "message": "50km, 100km 존재",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-196",
+      "id": "parse-note-198",
       "message": "5월",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-89",
+      "id": "parse-note-91",
       "message": "6.20, 21 중 하나",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-8",
       "message": "600km 브레베 도전",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-103",
+      "id": "parse-note-105",
       "message": "69km 인데 그래블로 나갈만할지 모름",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-198",
+      "id": "parse-note-200",
       "message": "6월",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-478",
-      "message": "6월, 7월 있는데 한번씩 할까 생각중",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-479",
-      "message": "6월은 스프린트로 (절반)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-54",
-      "message": "7.11 예정이라고함 참고하자",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-370",
-      "message": "7.19(토) 잘해보자",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-325",
-      "message": "7.31 이후 취소표 재판매한다고함 참고",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-314",
-      "message": "7/25 (금) 10시이후",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-199",
-      "message": "7월",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-480",
+      "message": "6월, 7월 있는데 한번씩 할까 생각중",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-481",
+      "message": "6월은 스프린트로 (절반)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-56",
+      "message": "7.11 예정이라고함 참고하자",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-372",
+      "message": "7.19(토) 잘해보자",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-327",
+      "message": "7.31 이후 취소표 재판매한다고함 참고",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-316",
+      "message": "7/25 (금) 10시이후",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-201",
+      "message": "7월",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-482",
       "message": "7월은 일반 참여 생각중",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-331",
+      "id": "parse-note-333",
       "message": "8.12(화) 오전11시",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-382",
+      "id": "parse-note-384",
       "message": "8.15 그란폰도 신청함 (나연이것도)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-394",
+      "id": "parse-note-396",
       "message": "8.15 그란폰도도 생각하자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-342",
+      "id": "parse-note-344",
       "message": "8.23 부산 나이트 워크임",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-341",
+      "id": "parse-note-343",
       "message": "8.23, 8.24로 연기",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-203",
+      "id": "parse-note-205",
       "message": "8월",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-416",
+      "id": "parse-note-418",
       "message": "8월15일 ~ 8월31일까지 자율 진행",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-244",
+      "id": "parse-note-246",
       "message": "9.17(수) 까지 마감 및 환불이라고함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-272",
+      "id": "parse-note-274",
       "message": "9.21로 신청",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-206",
+      "id": "parse-note-208",
       "message": "9월",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-404",
+      "id": "parse-note-406",
       "message": "가민런 베가베리에서 소개",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-288",
+      "id": "parse-note-290",
       "message": "가볍게 생각해보자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-53",
       "message": "가평 그란폰도 확인 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-05-09_가평-그란폰도-확인"
     },
     {
-      "id": "parse-note-50",
+      "id": "parse-note-52",
       "message": "가평그란폰도 추가접수 나가지말고",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-65",
+      "id": "parse-note-67",
       "message": "가평그란폰도 추가접수 대기중",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-54",
       "message": "가평그란폰도 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-05-09_가평그란폰도"
     },
     {
-      "id": "parse-note-33",
+      "id": "parse-note-35",
       "message": "가평그란폰도는 끝난듯",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-177",
+      "id": "parse-note-179",
       "message": "걷기 대회",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-254",
+      "id": "parse-note-256",
       "message": "결재진행 필요",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-588",
+      "id": "parse-note-590",
       "message": "경남 고성 그란폰도",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-661",
+      "id": "parse-note-663",
       "message": "경남 고성 그란폰도 신청함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-32",
       "message": "경남 고성 그란폰도 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-03-29_경남-고성-그란폰도"
     },
     {
-      "id": "parse-note-571",
+      "id": "parse-note-573",
       "message": "경남고성은 수원에서 통영가고",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-508",
+      "id": "parse-note-510",
       "message": "경쟁, 비경쟁 1인 2종목 출전",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-259",
+      "id": "parse-note-261",
       "message": "고민해보자 오늘부터 접수중",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-470",
+      "id": "parse-note-472",
       "message": "고성그란폰도 25.08.31(토)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-83",
       "message": "공주 그란폰도 -> is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-09-14_공주-그란폰도-"
     },
     {
-      "id": "parse-note-418",
+      "id": "parse-note-420",
       "message": "공주 그란폰도 25.09.14(일)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-390",
+      "id": "parse-note-392",
       "message": "공주 그란폰도 신청 완료 및 입금",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-375",
-      "message": "공주그란폰도 가자 하프는 조금 아닌거 같음",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-377",
+      "message": "공주그란폰도 가자 하프는 조금 아닌거 같음",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-379",
       "message": "공주그란폰도 환불 요청함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-293",
+      "id": "parse-note-295",
       "message": "공지 및 판매 예정이라고함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-362",
+      "id": "parse-note-364",
       "message": "관련 정보 알아보자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-276",
+      "id": "parse-note-278",
       "message": "광복절 기념 81.5km 라이딩 함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-30",
       "message": "광주 신안군 퍼머넌트 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-03-22_광주-신안군-퍼머넌트"
     },
     {
-      "id": "parse-note-474",
+      "id": "parse-note-476",
       "message": "구리 10km 신청하자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-62",
       "message": "구리 마라톤 10km is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-05-25_구리-마라톤-10km"
     },
     {
       "id": "enrich-note-25",
       "message": "구미 박정희 마라톤대회 풀코스 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-03-01_구미-박정희-마라톤대회-풀코스"
     },
     {
-      "id": "parse-note-136",
+      "id": "parse-note-138",
       "message": "구미 풀코스 입금 안된거 확인해서",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-132",
+      "id": "parse-note-134",
       "message": "구미 풀코스 입금 확인 안내 받음 (예전에)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-563",
+      "id": "parse-note-565",
       "message": "군산 란도너스 생각했는데",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-129",
+      "id": "parse-note-131",
       "message": "굳이 내려갈 필요 없을듯",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-182",
+      "id": "parse-note-184",
       "message": "그 밖에 대회들",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-485",
+      "id": "parse-note-487",
       "message": "그것부터 집가서 하자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-235",
+      "id": "parse-note-237",
       "message": "그날 유럽 여행 가자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-239",
+      "id": "parse-note-241",
       "message": "그냥 그날 동생 데리러가고 쉬자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-411",
+      "id": "parse-note-413",
       "message": "그란폰도 광복절 비대면 챌린지 있음",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-38",
+      "id": "parse-note-40",
       "message": "그래야 일정이 맞음",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-441",
+      "id": "parse-note-443",
       "message": "그리고 삼척 철인3종 기간 겹침",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-300",
+      "id": "parse-note-302",
       "message": "근데 환불이 잘안되니보고 하자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-624",
+      "id": "parse-note-626",
       "message": "금액 입금 필요함 공지 온다고 함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-286",
+      "id": "parse-note-288",
       "message": "기간내 라이딩",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-36",
       "message": "까지 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-03-31_까지"
     },
     {
-      "id": "parse-note-243",
+      "id": "parse-note-245",
       "message": "끝나고 가려면 토요일 검차가 어려운데 가능하면 신청하자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-197",
+      "id": "parse-note-199",
       "message": "ㄴ 부산 슬로우 철인3종 있음",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-194",
+      "id": "parse-note-196",
       "message": "ㄴ신청하고 오픈전이라 어려울 수도",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-193",
+      "id": "parse-note-195",
       "message": "ㄴ오픈 전날이라 참여 불가능할듯",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-258",
+      "id": "parse-note-260",
       "message": "나가볼 수 있을듯",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-413",
+      "id": "parse-note-415",
       "message": "나도 할 수 있음",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-407",
+      "id": "parse-note-409",
       "message": "나연이",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-383",
+      "id": "parse-note-385",
       "message": "나연이꺼 한글런 신청 및 접수 완료",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-393",
+      "id": "parse-note-395",
       "message": "나연이는 하면 하는거고 아니면 안하는거",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-127",
+      "id": "parse-note-129",
       "message": "나주영산강 듀애슬론 대회도 확인",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-95",
+      "id": "parse-note-97",
       "message": "나중에 참가 확인하기",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-21",
+      "id": "parse-note-23",
       "message": "낙동강 대신 창원 마산만 철인3종 고민중",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-73",
+      "id": "parse-note-75",
       "message": "낙동강 슬로우 철인 신청 및 입금",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-22",
+      "id": "parse-note-24",
       "message": "낙동강은 사이클 코스가 별로였음",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-669",
+      "id": "parse-note-671",
       "message": "날짜",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-688",
+      "id": "parse-note-690",
       "message": "날짜",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-675",
+      "id": "parse-note-677",
       "message": "날짜 2025년도 6월 21일(토), 22일(일) 2일간 08시 30분 ~ 18시(개회식 1일차 09시)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-12",
       "message": "내가 할 수 있는 도전은 현재 아닌듯",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-273",
+      "id": "parse-note-275",
       "message": "내일 14:00 고성 철인 추가접수 놓치지말자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-432",
+      "id": "parse-note-434",
       "message": "내일 19시 10km 도전하자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-378",
+      "id": "parse-note-380",
       "message": "내일 마블런 10km 열림 이거 노려도 좋을듯한데",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-522",
+      "id": "parse-note-524",
       "message": "내일 목 10시부터 접수 예정",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-614",
+      "id": "parse-note-616",
       "message": "내장산 그란폰도 06.01",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-65",
       "message": "내장산 그란폰도 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-06-01_내장산-그란폰도"
     },
     {
-      "id": "parse-note-596",
+      "id": "parse-note-598",
       "message": "내장산그란폰도 접수 및 입금 완료",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-13",
       "message": "년별 일정",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-36",
+      "message": "노려볼 철인3종",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-546",
+      "message": "눌렀을 때 대기 8000번이었음",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-347",
+      "message": "뉴발 10k 응모 했었는데",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-80",
+      "message": "늦었는데 된듯",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-226",
+      "message": "다녀오도록 하자",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-579",
+      "message": "다음날 통영에서 고성가서 대회참가하고",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-450",
+      "message": "담주 월3시임 잊지말고 신청해보자",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-53",
+      "message": "대구 철인3종 나쁘지 않을듯",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-34",
-      "message": "노려볼 철인3종",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-544",
-      "message": "눌렀을 때 대기 8000번이었음",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-345",
-      "message": "뉴발 10k 응모 했었는데",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-78",
-      "message": "늦었는데 된듯",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-224",
-      "message": "다녀오도록 하자",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-577",
-      "message": "다음날 통영에서 고성가서 대회참가하고",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-448",
-      "message": "담주 월3시임 잊지말고 신청해보자",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-51",
-      "message": "대구 철인3종 나쁘지 않을듯",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-32",
       "message": "대구 철인3종 접수 불가 10일 뛰로 임",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-663",
+      "id": "parse-note-665",
       "message": "대기 중인 그란폰도",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-305",
+      "id": "parse-note-307",
       "message": "대한철인3종협회 https://share.google/f4N4AVvBcBAmsHlNB",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-169",
+      "id": "parse-note-171",
       "message": "대회 일정 신청 관련해서만 이 문서에서 정리하고",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-641",
+      "id": "parse-note-643",
       "message": "대회 정리해보자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-6",
       "message": "대회 진행 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2025-04-13_대회-진행"
     },
     {
-      "id": "parse-note-157",
+      "id": "parse-note-159",
       "message": "대회일 26.05.16~17",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-528",
+      "id": "parse-note-530",
       "message": "동해안 해수욕장 개장일 6월말부터 7월~8월 기간",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-501",
+      "id": "parse-note-503",
       "message": "동호회는 의견 들어보자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-308",
+      "id": "parse-note-310",
       "message": "되면 그때 고령 철인3종 생각해보자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-7",
       "message": "딸기 챌린지 도전",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-346",
+      "id": "parse-note-348",
       "message": "떨어짐",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-4",
       "message": "란도너스",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-164",
+      "id": "parse-note-166",
       "message": "란도너스 벡터 대회 있는걸로 알고 있음 준비하자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-28",
       "message": "란도너스 브레베 200k 대기 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-03-15_란도너스-브레베-200k-대기"
     },
     {
-      "id": "parse-note-685",
+      "id": "parse-note-687",
       "message": "란도넌스",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-175",
+      "id": "parse-note-177",
       "message": "란도넌스 (브레베, 퍼머넌트)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-405",
+      "id": "parse-note-407",
       "message": "러너블 앱에서 참가신청",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-619",
+      "id": "parse-note-621",
       "message": "로라방 한번",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-439",
+      "id": "parse-note-441",
       "message": "롯데 아쿠아슬론 또 놓침",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-447",
+      "id": "parse-note-449",
       "message": "롯데 아쿠아슬론 추가접수 뜸",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-75",
       "message": "롯데아쿠아슬론 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-07-04_롯데아쿠아슬론"
     },
     {
-      "id": "parse-note-496",
+      "id": "parse-note-498",
       "message": "마감됨 추가 접수 가능한지 문의하긴했는데",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-679",
+      "id": "parse-note-681",
       "message": "마라톤",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-176",
+      "id": "parse-note-178",
       "message": "마라톤 (동호회, 개인)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-593",
+      "id": "parse-note-595",
       "message": "마라톤 버닝런 10km 참가",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-26",
       "message": "마라톤 오픈 레이스 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-03-08_마라톤-오픈-레이스"
     },
     {
-      "id": "parse-note-408",
+      "id": "parse-note-410",
       "message": "마라톤 참가 2025.10.09(목)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-372",
+      "id": "parse-note-374",
       "message": "마블런 접수 성공",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-84",
       "message": "마블런 하프 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-09-14_마블런-하프"
     },
     {
-      "id": "parse-note-380",
+      "id": "parse-note-382",
       "message": "마블런 하프함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-388",
+      "id": "parse-note-390",
       "message": "마블런 확인 2025.09.14(일)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-299",
+      "id": "parse-note-301",
       "message": "만경강 메디오폰도 접수 가능함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-321",
+      "message": "만경강도 있음 이건 이따보자",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-668",
+      "message": "메일로 따로 보냄 확인해보자",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-401",
+      "message": "목,금에 접수 가능하다고함",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-319",
-      "message": "만경강도 있음 이건 이따보자",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-666",
-      "message": "메일로 따로 보냄 확인해보자",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-399",
-      "message": "목,금에 접수 가능하다고함",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-317",
       "message": "무주그란폰도 접수 (입금)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-307",
+      "id": "parse-note-309",
       "message": "무주그란폰도 취소 문의함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-303",
+      "id": "parse-note-305",
       "message": "무주그란폰도 취소 전화드려서함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-97",
       "message": "무주그란폰도 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-10-19_무주그란폰도"
     },
     {
-      "id": "parse-note-328",
+      "id": "parse-note-330",
       "message": "무주랑 겹치긴함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-466",
+      "id": "parse-note-468",
       "message": "문경새재 그란폰도",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-494",
+      "id": "parse-note-496",
       "message": "문경새재 그란폰도 있는데",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-82",
       "message": "문경새재 그란폰도 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-09-06_문경새재-그란폰도"
     },
     {
-      "id": "parse-note-487",
+      "id": "parse-note-16",
+      "message": "문경새재 접수 안함 추가접수 노려야할듯",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-489",
       "message": "문경새재 추가접수",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-442",
+      "id": "parse-note-444",
       "message": "문경세재랑",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-137",
+      "id": "parse-note-139",
       "message": "문의함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-600",
+      "id": "parse-note-602",
       "message": "미니벨로 고민",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-57",
+      "id": "parse-note-59",
       "message": "미니벨로 나가볼만 할듯",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-533",
+      "id": "parse-note-535",
       "message": "미니벨로 도전이 될거 같음",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-295",
+      "id": "parse-note-297",
       "message": "미니벨로로 대회나갈 예정",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-521",
+      "id": "parse-note-523",
       "message": "미니벨로로 참여하자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-61",
+      "id": "parse-note-63",
       "message": "미입금했었는듯",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-503",
+      "id": "parse-note-505",
       "message": "바다수영 대회 열림",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-110",
+      "id": "parse-note-112",
       "message": "배후령 메디오폰도 공지뜸",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-45",
       "message": "배후령 메디오폰도 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-04-26_배후령-메디오폰도"
     },
     {
       "id": "parse-note-10",
       "message": "백두대간 울트라로드",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-52",
       "message": "버닝런 10km is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-05-06_버닝런-10km"
     },
     {
-      "id": "parse-note-653",
+      "id": "parse-note-655",
       "message": "벡터 2.15 준비해야할듯",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-686",
+      "id": "parse-note-688",
       "message": "벡터 대회 다음 주 토 (zwift)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-597",
+      "id": "parse-note-599",
       "message": "부산 낙동강 슬로우 철인3종",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-84",
+      "id": "parse-note-86",
       "message": "부산 낙동강 슬로우 철인3종 대회",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-290",
+      "id": "parse-note-292",
       "message": "부산 세븐 브릿지",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-282",
+      "id": "parse-note-284",
       "message": "부산 세븐브릿지",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-88",
       "message": "부산 투르 드 세븐 브릿지 -> 불가 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-09-21_부산-투르-드-세븐-브릿지-불가"
     },
     {
-      "id": "parse-note-361",
+      "id": "parse-note-363",
       "message": "부산 투르 드 세븐 브릿지 이거 하는거 같음",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-323",
+      "id": "parse-note-325",
       "message": "부산 투르드 세븐 브릿지 놓침",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-205",
+      "id": "parse-note-207",
       "message": "부산나이트워크 25.08.23(토)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-457",
+      "id": "parse-note-459",
       "message": "부산나이트워크 42k 접수함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-531",
+      "id": "parse-note-533",
       "message": "부산에 10월에 투르 드 세븐 브릿지 대회 열린다고함 7개 대교 100km 라이딩이라고함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-633",
+      "id": "parse-note-635",
       "message": "부안 메디오폰도 전날인데 괜찮을지 체크",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-643",
+      "id": "parse-note-645",
       "message": "부안 메디오폰도 접수 및 입금함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-40",
       "message": "부안 메디오폰도 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-04-13_부안-메디오폰도"
     },
     {
-      "id": "parse-note-651",
+      "id": "parse-note-653",
       "message": "부안 쪽에 메디오폰도 열림",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-689",
+      "id": "parse-note-691",
       "message": "브레베",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-130",
+      "id": "parse-note-132",
       "message": "브롬톤 라이딩으로 바꾸자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-612",
+      "id": "parse-note-614",
       "message": "비는 맞을듯 탈지 고민",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-326",
+      "id": "parse-note-328",
       "message": "비앙키 그란폰도 춘천에서 한다는데",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-567",
-      "message": "비오는거면 전기자전거 서울로 가져가기도 애매할듯",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-569",
+      "message": "비오는거면 전기자전거 서울로 가져가기도 애매할듯",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-571",
       "message": "비오면 대중교통도 생각하자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-564",
+      "id": "parse-note-566",
       "message": "비오면 켄슬일거 같음",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-621",
+      "id": "parse-note-623",
       "message": "빙그레 그란폰도 추가접수 신청",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-630",
+      "id": "parse-note-632",
       "message": "빙그레 그란폰도 확인",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-39",
       "message": "빙그레 그란폰도 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-04-12_빙그레-그란폰도"
     },
     {
-      "id": "parse-note-561",
+      "id": "parse-note-563",
       "message": "빙그레는 공주라서 버스 문제는 없을듯",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-497",
+      "id": "parse-note-499",
       "message": "사실 모르겠음 이건 가능해져도 고민해보자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-532",
+      "id": "parse-note-534",
       "message": "사이트는 아직 없으나 틈틈히 체크해서 참여하자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-30",
+      "id": "parse-note-32",
       "message": "삼척 그란폰도 신청 및 입금",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-66",
       "message": "삼척 그란폰도 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-06-06_삼척-그란폰도"
     },
     {
       "id": "enrich-note-67",
       "message": "삼척 그란폰도 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-06-06_삼척-그란폰도-2"
     },
     {
-      "id": "parse-note-48",
+      "id": "parse-note-50",
       "message": "삼척 대회나 갔다오자 토요일함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-435",
+      "id": "parse-note-437",
       "message": "삼척 수영 대진표 올라옴 확인해두자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-53",
+      "id": "parse-note-55",
       "message": "삼척시 바다수영 대회 안내문자옴",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-158",
+      "id": "parse-note-160",
       "message": "서귀포 대회 확인",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-159",
+      "id": "parse-note-161",
       "message": "서귀포시관광협의회 > 공지사항 > 2025년 제26회 서귀포겨울바다 국제펭귄수영대회 입수자 관련 공지 https://share.google/20cN8T2Mz321cd7VX",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-89",
       "message": "서울 스포츠 자전거 라이딩 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-09-21_서울-스포츠-자전거-라이딩"
     },
     {
-      "id": "parse-note-578",
+      "id": "parse-note-580",
       "message": "서울 오기",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-139",
+      "id": "parse-note-141",
       "message": "서울 하프 마라톤 안내 받음",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-431",
+      "id": "parse-note-433",
       "message": "서울 하프레이스 놓침 (신경 안쓴듯)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-95",
       "message": "서울 하프레이스 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-10-12_서울-하프레이스"
     },
     {
       "id": "enrich-note-29",
       "message": "서울마라톤 자원봉사 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-03-16_서울마라톤-자원봉사"
     },
     {
       "id": "enrich-note-55",
       "message": "서울시민 마라톤 10km is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-05-10_서울시민-마라톤-10km"
     },
     {
-      "id": "parse-note-155",
+      "id": "parse-note-157",
       "message": "서울에서 하는거긴함 100km 아니더래도 도전해볼만할듯 50이면 풀코스랑 비슷",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-518",
+      "id": "parse-note-520",
       "message": "서울자전거 대행진 접수 및 결재 완료",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-56",
       "message": "서울자전거대행진 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-05-11_서울자전거대행진"
     },
     {
-      "id": "parse-note-543",
+      "id": "parse-note-545",
       "message": "선착순인데 신청버튼 누르는 속도가 늦어",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-118",
+      "id": "parse-note-120",
       "message": "설악 그란폰도 일정 나옴",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-97",
+      "id": "parse-note-99",
       "message": "설악 그란폰도 접수",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-626",
+      "id": "parse-note-628",
       "message": "설악 그란폰도 취소 안된다고 연락옴",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-59",
       "message": "설악 그란폰도 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-05-17_설악-그란폰도"
     },
     {
-      "id": "parse-note-184",
+      "id": "parse-note-186",
       "message": "설악 실패시 춘천쪽 생각",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-183",
+      "id": "parse-note-185",
       "message": "설악, 예천 그란폰도 추가접수 대기",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-60",
+      "id": "parse-note-62",
       "message": "설악그란폰도 입금",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-635",
+      "id": "parse-note-637",
       "message": "설악그란폰도 취소함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-70",
       "message": "설악그란폰도 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-06-20_설악그란폰도"
     },
     {
-      "id": "parse-note-352",
+      "id": "parse-note-354",
       "message": "섬섬여수 그란폰도",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-100",
       "message": "섬섬여수 그란폰도 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-11-01_섬섬여수-그란폰도"
     },
     {
-      "id": "parse-note-313",
+      "id": "parse-note-315",
       "message": "섬섬여수 추가접수",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-333",
+      "id": "parse-note-335",
       "message": "섬섬여수 추가접수 생각하자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-311",
+      "id": "parse-note-313",
       "message": "섬섬여수 추가접수 완료, 입금 완료",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-104",
+      "id": "parse-note-106",
       "message": "성지순례 대비로 갈지 고민해보자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-603",
+      "id": "parse-note-605",
       "message": "세부 일정 계획 필요",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-279",
+      "id": "parse-note-281",
       "message": "세븐브릿지",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-145",
+      "id": "parse-note-147",
       "message": "송금할 때 생년월일 안넣음",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-182",
+      "message": "수영 대회",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-576",
+      "message": "수원에 로드 두고 오고",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-175",
+      "message": "쉬엄쉬엄 (한강, 오리발)",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-670",
+      "message": "쉬엄쉬엄 신청 완료",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-451",
+      "message": "쉽진 않을듯",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-180",
-      "message": "수영 대회",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-574",
-      "message": "수원에 로드 두고 오고",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-173",
-      "message": "쉬엄쉬엄 (한강, 오리발)",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-668",
-      "message": "쉬엄쉬엄 신청 완료",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-449",
-      "message": "쉽진 않을듯",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-178",
       "message": "스카이런",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-677",
+      "id": "parse-note-679",
       "message": "스카이런",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-550",
+      "id": "parse-note-552",
       "message": "스카이런 2025 신청 뜸",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-542",
+      "id": "parse-note-544",
       "message": "스카이런 2025 티켓팅 실패함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-42",
       "message": "스카이런 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-04-20_스카이런"
     },
     {
       "id": "enrich-note-51",
       "message": "스탠다드 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-05-04_스탠다드"
     },
     {
-      "id": "parse-note-302",
+      "id": "parse-note-304",
       "message": "스페인 여행가면 못함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-209",
+      "id": "parse-note-211",
       "message": "스페인성지순례 진행예정",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-322",
-      "message": "스피드에이전시 https://share.google/IuPz71ePtOCOZFvg0",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-647",
-      "message": "시간 체크해서 준비하자",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-324",
+      "message": "스피드에이전시 https://share.google/IuPz71ePtOCOZFvg0",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-649",
+      "message": "시간 체크해서 준비하자",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-326",
       "message": "시간도 안봄 이건 운명인듯",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-430",
+      "id": "parse-note-432",
       "message": "시기는 나쁘지 않음",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-444",
+      "id": "parse-note-446",
       "message": "시흥 쪽도 있는데 이미 참가 완료됨",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-540",
+      "id": "parse-note-542",
       "message": "신청 결제 매일와서 결재함 24000",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-472",
+      "id": "parse-note-474",
       "message": "신청 고민해보자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-245",
+      "id": "parse-note-247",
       "message": "신청 및 결재함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-195",
+      "id": "parse-note-197",
       "message": "신청 실패",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-687",
+      "id": "parse-note-689",
       "message": "신청 여부",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-684",
+      "id": "parse-note-686",
       "message": "신청 여부 - 신청 (확인)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-674",
+      "id": "parse-note-676",
       "message": "신청 여부 신청",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-162",
+      "id": "parse-note-164",
       "message": "신청 완료 문자받음 자세한 일정 추후 파악",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-516",
+      "id": "parse-note-518",
       "message": "신청 완료함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-410",
+      "id": "parse-note-412",
       "message": "신청은 가능",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-9",
       "message": "신청함 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2025-05-17_신청함"
     },
     {
-      "id": "parse-note-601",
+      "id": "parse-note-603",
       "message": "아니면 듀에슬론이나 수영만도 생각 중",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-309",
+      "id": "parse-note-311",
       "message": "아니면 비앙키 그란폰도나",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-690",
+      "id": "parse-note-692",
       "message": "아직 멀었음",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-86",
+      "id": "parse-note-88",
       "message": "아직 접수 관련 내용은 없는듯",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-572",
+      "id": "parse-note-574",
       "message": "아침에 버스타고 가야할듯",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-134",
+      "id": "parse-note-136",
       "message": "아쿠아마라톤이란것도 있는듯 참고하자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-465",
+      "id": "parse-note-467",
       "message": "아쿠아슬론 결재완료",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-23",
       "message": "안양 장거리수영대회 1.5km is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-02-01_안양-장거리수영대회-15km"
     },
     {
-      "id": "parse-note-120",
+      "id": "parse-note-122",
       "message": "안양장거리 수영대회 확인",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-99",
+      "id": "parse-note-101",
       "message": "양양 그란폰도 미개최",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-119",
+      "id": "parse-note-121",
       "message": "양양 그란폰도 일정 나옴",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-658",
+      "id": "parse-note-660",
       "message": "양양 그란폰도 지금 접수 가능 -> 신청하자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-46",
       "message": "양양 그란폰도 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-04-26_양양-그란폰도"
     },
     {
-      "id": "parse-note-665",
+      "id": "parse-note-667",
       "message": "양양, 설악 입금도 진행함 휴대폰번호 +로 안했는데",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-43",
       "message": "양양그란폰도 -> 미개최 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-04-25_양양그란폰도-미개최"
     },
     {
-      "id": "parse-note-113",
+      "id": "parse-note-115",
       "message": "양양이랑 겹치긴함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-348",
+      "id": "parse-note-350",
       "message": "어라운드 태백 대회 확인",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-321",
+      "id": "parse-note-323",
       "message": "어라운드 태백 접수 및 입금",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-90",
       "message": "어라운드 태백 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-09-27_어라운드-태백"
     },
     {
-      "id": "parse-note-649",
+      "id": "parse-note-651",
       "message": "어제 예천 그란폰도 추가 접수인데 놓침",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-16",
       "message": "에 익산 아쿠아 슬론 표준 한번 접수하자 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2025-07-19_에-익산-아쿠아-슬론-표준-한번-접수하자"
     },
     {
-      "id": "parse-note-101",
+      "id": "parse-note-103",
       "message": "여수시장배 힐클라임 대회 안내옴",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-60",
       "message": "여의도 밤섬 마라톤 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-05-18_여의도-밤섬-마라톤"
     },
     {
-      "id": "parse-note-27",
+      "id": "parse-note-29",
       "message": "여주 대회 환불 받음",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-47",
+      "id": "parse-note-49",
       "message": "여주 대회 환불 신청함 - 크게 메리트 없는듯",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-56",
+      "id": "parse-note-58",
       "message": "여주 자전거 대회 확인",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-68",
       "message": "여주시 세종대왕 한글사랑 자전거랠리 -> is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-06-07_여주시-세종대왕-한글사랑-자전거랠리-"
     },
     {
-      "id": "parse-note-222",
+      "id": "parse-note-224",
       "message": "연륙교라고 영종도에 다리 생기는데",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-218",
+      "id": "parse-note-220",
       "message": "연육교에서 듀애슬론 이번주에 했음",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-358",
+      "id": "parse-note-360",
       "message": "예매인증 안되서 못함 나중에 해보자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-5",
       "message": "예정 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2025-04-12_예정"
     },
     {
       "id": "enrich-note-8",
       "message": "예정 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2025-04-27_예정"
     },
     {
-      "id": "parse-note-58",
+      "id": "parse-note-60",
       "message": "오늘 11시부터 접수",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-269",
+      "id": "parse-note-271",
       "message": "오늘 11시부터 천호 가을 라이딩 신청",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-427",
+      "id": "parse-note-429",
       "message": "오늘 19시 서울 하프레이스 접수가능",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-645",
+      "id": "parse-note-647",
       "message": "오늘 벡터도 신청함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-499",
+      "id": "parse-note-501",
       "message": "오늘 한강 나이트워크 42k 열림",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-599",
+      "id": "parse-note-601",
       "message": "오리발 쓸 수 있음",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-12",
       "message": "오전 10시부터 선착순 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2025-06-18_오전-10시부터-선착순"
     },
     {
-      "id": "parse-note-655",
+      "id": "parse-note-657",
       "message": "오전 8시전에 준비해서 출발해야하는듯",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-343",
+      "id": "parse-note-345",
       "message": "오전에 한강하고 가야할듯",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-545",
+      "id": "parse-note-547",
       "message": "오픈전날이라 하기도 어려웠는데 마음 편하게된듯",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-634",
+      "id": "parse-note-636",
       "message": "옥정호 그란폰도 접수 및 입금함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-428",
+      "id": "parse-note-430",
       "message": "올해 마지막 일정으로 하프 생각도 나쁘지 않을듯",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-461",
+      "id": "parse-note-463",
       "message": "올해 춘천마라톤도 6월쯤에 신청하는거 같음",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-294",
+      "id": "parse-note-296",
       "message": "완경강 메디오폰도 접수",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-86",
       "message": "완주 만경강 메디오폰도 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-09-20_완주-만경강-메디오폰도"
     },
     {
-      "id": "parse-note-277",
+      "id": "parse-note-279",
       "message": "완주 인증 올림",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-149",
+      "id": "parse-note-151",
       "message": "완주를 목표로 한번 준비해보자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-250",
+      "id": "parse-note-252",
       "message": "울진 철인 3종 결재함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-234",
+      "id": "parse-note-236",
       "message": "울진 철인 취소",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-257",
+      "id": "parse-note-259",
       "message": "울진 철인3종 11.01,02 열림",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-41",
+      "message": "울트라는 조금 이른거 같고",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-30",
+      "message": "울트라도 환불 받음",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-39",
-      "message": "울트라는 조금 이른거 같고",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-28",
-      "message": "울트라도 환불 받음",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-37",
       "message": "울트라를 포기해야 할 수도 있음",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-31",
+      "id": "parse-note-33",
       "message": "울트라마라톤 100km 대신 50km 하라고 chatgpt가 권고함 이건 바꾸자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-108",
+      "id": "parse-note-110",
       "message": "울트라마라톤 접수 및 입금",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-153",
+      "id": "parse-note-155",
       "message": "울트라마라톤 찾아봄",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-185",
+      "id": "parse-note-187",
       "message": "월별로",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-515",
+      "id": "parse-note-517",
       "message": "월요일 휴가 받아 자전거 더 타도 좋을듯 안힘들면 아니면 그냥 다녀오고",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-491",
+      "id": "parse-note-493",
       "message": "이거 고민은 내일까지 하자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-412",
+      "id": "parse-note-414",
       "message": "이거 나연이한테 해보라고 하면 좋을듯",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-327",
+      "id": "parse-note-329",
       "message": "이거 생각해봐도 좋을듯",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-526",
+      "id": "parse-note-528",
       "message": "이거 준비도 나쁘지 않음",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-447",
+      "message": "이거 추가접수 노리자",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-445",
-      "message": "이거 추가접수 노리자",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-443",
       "message": "이거말고 익산 쪽 철인3종 노려야할듯",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-650",
+      "id": "parse-note-652",
       "message": "이건 포기해야할듯",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-462",
+      "id": "parse-note-464",
       "message": "이건 하프 생각해보자 뭐 안되면 10km도 나쁘진 않을듯 10월쯤에",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-529",
+      "id": "parse-note-531",
       "message": "이때 바다수영 준비 및 연습하자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-220",
+      "id": "parse-note-222",
       "message": "이런 사이트도 있으니 참고",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-452",
+      "id": "parse-note-454",
       "message": "이미 마감됨 흐름상 추가접수는 없을듯",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-71",
+      "id": "parse-note-73",
       "message": "이미지 찾음",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-562",
+      "id": "parse-note-564",
       "message": "이번 주 토요일 또 비옴",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-363",
+      "id": "parse-note-365",
       "message": "이번달 16일 얼리버드",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-421",
+      "id": "parse-note-423",
       "message": "이번주 끝나고",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-402",
+      "id": "parse-note-404",
       "message": "이번주 목,금 접수 가능하다는 얘기있음",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-609",
+      "id": "parse-note-611",
       "message": "이번주에 고민",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-369",
+      "id": "parse-note-371",
       "message": "익산 아쿠아 표준 신청",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-477",
+      "id": "parse-note-479",
       "message": "익산 아쿠아슬론",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-336",
+      "id": "parse-note-338",
       "message": "익산 아쿠아슬론 다음주로 연기됨",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-71",
       "message": "익산 아쿠아슬론 스프린트 -> 연기 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-06-21_익산-아쿠아슬론-스프린트-연기"
     },
     {
       "id": "enrich-note-74",
       "message": "익산 아쿠아슬론 스프린트 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-06-29_익산-아쿠아슬론-스프린트"
     },
     {
       "id": "enrich-note-79",
       "message": "익산 아쿠아슬론 연기 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-07-19_익산-아쿠아슬론-연기"
     },
     {
-      "id": "parse-note-16",
+      "id": "parse-note-18",
       "message": "익산 아쿠아슬론 접수 및 결재",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-237",
+      "id": "parse-note-239",
       "message": "익산 철인 스프린트 취소함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-91",
       "message": "익산 철인3종 스프린트 -> is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-09-28_익산-철인3종-스프린트-"
     },
     {
-      "id": "parse-note-334",
+      "id": "parse-note-336",
       "message": "익산 추가 접수 안될듯 마블 하프랑 겹침",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-35",
+      "id": "parse-note-37",
       "message": "익산철인3종 9월",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-251",
+      "id": "parse-note-253",
       "message": "일단 나갈 생각하자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-500",
+      "id": "parse-note-502",
       "message": "일단 나는 신청하자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-555",
+      "id": "parse-note-557",
       "message": "일단 신청하고 참가가능하면 하고 아니면 5만원 버린 셈으로 해야할 거 같음",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-166",
+      "id": "parse-note-168",
       "message": "일단 참가 신청함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-232",
+      "id": "parse-note-234",
       "message": "일본 여행 가기로 함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-568",
+      "id": "parse-note-570",
       "message": "일요일 봉사 신설동 가는거",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-90",
+      "id": "parse-note-92",
       "message": "일요일 생각하자 토요일보다 나을듯 한데",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-514",
+      "id": "parse-note-516",
       "message": "일요일 제주 하프 마라톤 가자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-94",
+      "id": "parse-note-96",
       "message": "일요일 A그룹 09:30 신청 및 입금",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-91",
+      "id": "parse-note-93",
       "message": "일정 겹칠까봐 고민임",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-81",
       "message": "일정 변경 요청 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-08-23_일정-변경-요청"
     },
     {
-      "id": "parse-note-263",
+      "id": "parse-note-265",
       "message": "일정 안겹쳐서 10km 정돈 해볼만함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-589",
+      "id": "parse-note-591",
       "message": "일정 잘못 파악",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-387",
+      "id": "parse-note-389",
       "message": "일정이 안됨",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-3",
       "message": "임공룡나라 그란폰도 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2025-03-30_임공룡나라-그란폰도"
     },
     {
-      "id": "parse-note-559",
+      "id": "parse-note-561",
       "message": "임실 그란폰도는",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-637",
+      "id": "parse-note-639",
       "message": "임실 옥정호 그란폰도 - 25.04.05(토)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-37",
       "message": "임실 옥정호 그란폰도 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-04-05_임실-옥정호-그란폰도"
     },
     {
-      "id": "parse-note-144",
+      "id": "parse-note-146",
       "message": "입금 확인 안되면 문의하자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-681",
+      "id": "parse-note-683",
       "message": "자전거",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-275",
+      "id": "parse-note-277",
       "message": "자전거 광복절 연휴간",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-174",
+      "id": "parse-note-176",
       "message": "자전거 대회",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-565",
+      "id": "parse-note-567",
       "message": "자전거는 수원으로 가져오고",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-454",
+      "id": "parse-note-456",
       "message": "작년에 추가접수하긴함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-357",
+      "id": "parse-note-359",
       "message": "잠수교 나이트런 10k",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-105",
+      "id": "parse-note-107",
       "message": "장단이 있을듯",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-471",
+      "id": "parse-note-473",
       "message": "장마 기간 피하는거 같음",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-548",
+      "id": "parse-note-550",
       "message": "장마기간이라 별로인듯",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-45",
+      "id": "parse-note-47",
       "message": "장흥 철인3종은 교통편이 너무 안좋음",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-605",
+      "id": "parse-note-607",
       "message": "전날 퍼머넌트 후 참가고려",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-560",
+      "id": "parse-note-562",
       "message": "전주 도착 후 렌트하는걸로 하자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-451",
+      "id": "parse-note-453",
       "message": "전주에 롯데 아쿠아슬론 접수 받았고",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-219",
+      "id": "parse-note-221",
       "message": "전혀 몰랐음",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-419",
+      "id": "parse-note-421",
       "message": "접수 06.17(화) 10시~",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-476",
+      "id": "parse-note-478",
       "message": "접수 및 결재함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-142",
+      "id": "parse-note-144",
       "message": "접수 및 납부",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-151",
+      "id": "parse-note-153",
       "message": "접수 및 납부",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-59",
+      "id": "parse-note-61",
       "message": "접수 및 입금 완료",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-271",
+      "id": "parse-note-273",
       "message": "접수 완료 입금 완료",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-354",
+      "id": "parse-note-356",
       "message": "접수일 07.17(목) 오전 10시",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-351",
+      "id": "parse-note-353",
       "message": "접수일 07.22(화) 오전 10시",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-374",
+      "id": "parse-note-376",
       "message": "접수했는데 일정 겹침",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-18",
+      "id": "parse-note-20",
       "message": "정선 동강 대회 접수 및 입금",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-483",
+      "id": "parse-note-485",
       "message": "제 4회 익산 챌린지 아쿠아슬론 챔피언십 시리즈대회 Ⅱ(6.21 토요일)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-47",
       "message": "제 5회 익산 아쿠아슬론 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-04-26_제-5회-익산-아쿠아슬론"
     },
     {
       "id": "enrich-note-78",
       "message": "제14회 삼척이사부장군배 바다수영대회 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-07-12_제14회-삼척이사부장군배-바다수영대회"
     },
     {
       "id": "enrich-note-20",
       "message": "제26회 서귀포겨울바다 국제펭귄수영대회 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-01-01_제26회-서귀포겨울바다-국제펭귄수영대회"
     },
     {
-      "id": "parse-note-161",
+      "id": "parse-note-163",
       "message": "제27회 서귀포겨울바다 국제펭귄수영대회",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-21",
       "message": "제2회 한강 서울 하프 마라톤 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-01-25_제2회-한강-서울-하프-마라톤"
     },
     {
       "id": "enrich-note-73",
       "message": "제6회 국민고향 정선 동강 전국자전거대회 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-06-28_제6회-국민고향-정선-동강-전국자전거대회"
     },
     {
-      "id": "parse-note-24",
+      "id": "parse-note-26",
       "message": "제6회 창원특례시 마산만 전국 트라이애슬론 대회 -> 접수 및 결재",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-511",
+      "id": "parse-note-513",
       "message": "제9회 경기 친환경 자전거페스티벌",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-61",
       "message": "제9회 경기 친환경 자전거페스티벌 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-05-24_제9회-경기-친환경-자전거페스티벌"
     },
     {
-      "id": "parse-note-386",
+      "id": "parse-note-388",
       "message": "제마, MBN도 있는데 이건 넘어가자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-63",
       "message": "제주 마라톤 하프 > is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-05-25_제주-마라톤-하프"
     },
     {
-      "id": "parse-note-490",
+      "id": "parse-note-492",
       "message": "제주도 말고 구리 갈지 고민해보자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-165",
+      "id": "parse-note-167",
       "message": "제주도 펭귄 수영 이런 대회 있음",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-670",
+      "id": "parse-note-672",
       "message": "종목",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-455",
+      "id": "parse-note-457",
       "message": "주시해놓긴하자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-638",
+      "id": "parse-note-640",
       "message": "준비해보자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-398",
+      "id": "parse-note-400",
       "message": "지희님이 마블런 소개해줌",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-68",
+      "id": "parse-note-70",
       "message": "차라리 자전거 타자 영종도 한바퀴",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-495",
+      "id": "parse-note-497",
       "message": "참가 접수 05.01에 했고",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-228",
+      "id": "parse-note-230",
       "message": "참가 접수, 참가비 입금",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-671",
+      "id": "parse-note-673",
       "message": "참가비",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-676",
+      "id": "parse-note-678",
       "message": "참가비 59000 (입금)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-554",
+      "id": "parse-note-556",
       "message": "참가비 5만원인데 대회일이 오픈 전날임",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-424",
+      "id": "parse-note-426",
       "message": "참고하자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-437",
+      "id": "parse-note-439",
       "message": "참고하자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-403",
+      "id": "parse-note-405",
       "message": "참고해서 진행",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-504",
+      "id": "parse-note-506",
       "message": "참여함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-9",
       "message": "찾아본 내역",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-535",
+      "id": "parse-note-537",
       "message": "천호 자전거 대회있음",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-38",
       "message": "천호 자전거 챌린지 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-04-06_천호-자전거-챌린지"
     },
     {
-      "id": "parse-note-285",
+      "id": "parse-note-287",
       "message": "천호자전거거리 가을라이딩 챌린지",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-484",
+      "id": "parse-note-486",
       "message": "철인 25년 갱신해야함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-267",
+      "id": "parse-note-269",
       "message": "철인 추가접수 완료 잘 준비하자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-172",
+      "id": "parse-note-174",
       "message": "철인3종",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-3",
       "message": "철인3종 스탠다드 제한시간 내 완주",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-45",
+      "message": "철인3종 양산 신청하자",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-244",
+      "message": "철인3종 익산 스프린트 대회 확인",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-72",
+      "message": "철인3종 일정 디시에서 봐야할듯",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-43",
-      "message": "철인3종 양산 신청하자",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-242",
-      "message": "철인3종 익산 스프린트 대회 확인",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-70",
-      "message": "철인3종 일정 디시에서 봐야할듯",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-41",
       "message": "철인가자 양산이 좋은듯",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-464",
+      "id": "parse-note-466",
       "message": "철인등록 다시함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-31",
       "message": "청광종주 답사 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-03-23_청광종주-답사"
     },
     {
       "id": "enrich-note-69",
       "message": "청광종주 트레일러닝 > is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-06-07_청광종주-트레일러닝"
     },
     {
-      "id": "parse-note-66",
+      "id": "parse-note-68",
       "message": "청라하늘대교 마라톤 하프 접수 및 입금",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-33",
       "message": "청라하늘대교 마라톤 하프 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-03-29_청라하늘대교-마라톤-하프"
     },
     {
-      "id": "parse-note-365",
+      "id": "parse-note-367",
       "message": "체크해두자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-62",
+      "id": "parse-note-64",
       "message": "추가로 일정 변경됨",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-116",
+      "id": "parse-note-118",
       "message": "추가접수 및 입금",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-664",
+      "id": "parse-note-666",
       "message": "추가접수 아니었음음",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-467",
+      "id": "parse-note-469",
       "message": "추가접수 완료 및 결재",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-546",
+      "id": "parse-note-548",
       "message": "추가접수 있는지나 체크하자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-79",
+      "id": "parse-note-81",
       "message": "추가접수 있을듯 참고하자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-170",
+      "id": "parse-note-172",
       "message": "추후 상세 정보는 각 문서에서 관리해볼 수 있도록 하자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-385",
+      "id": "parse-note-387",
       "message": "춘마 접수일 공유해주심(베가베리)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-98",
       "message": "춘천 마라톤 10km is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-10-26_춘천-마라톤-10km"
     },
     {
-      "id": "parse-note-248",
+      "id": "parse-note-250",
       "message": "춘천 마라톤 결재 완료",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-261",
+      "id": "parse-note-263",
       "message": "춘천 마라톤 추가접수 공지 확인",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-34",
       "message": "춘천 미니벨로 라이딩 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-03-30_춘천-미니벨로-라이딩"
     },
     {
-      "id": "parse-note-584",
+      "id": "parse-note-586",
       "message": "춘천 배후령 메디오폰도",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-77",
       "message": "춘천 배후령 메디오폰도 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-07-06_춘천-배후령-메디오폰도"
     },
     {
-      "id": "parse-note-582",
+      "id": "parse-note-584",
       "message": "춘천 배후령 접수함, 입금",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-262",
+      "id": "parse-note-264",
       "message": "춘천마라톤 - 조선일보 https://share.google/3dYfgFeYSRckAn0Km",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-253",
+      "id": "parse-note-255",
       "message": "춘천마라톤 10km 추가접수 완료",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-25",
+      "id": "parse-note-27",
       "message": "충주 그란폰도 접수 - 3.10(화) 10시~",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-283",
+      "id": "parse-note-285",
       "message": "취소표 08.13(수) 14:00",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-291",
+      "id": "parse-note-293",
       "message": "취소표 관련 전화 문의함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-280",
+      "id": "parse-note-282",
       "message": "취소표 신청 못함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-292",
+      "id": "parse-note-294",
       "message": "취소표 취합 후 다음 주부터",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-217",
+      "id": "parse-note-219",
       "message": "코리아맨 https://share.google/5xsLlrrJSPIbYzuot",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-238",
+      "id": "parse-note-240",
       "message": "태백 그란폰도 이후에 하는게 물리적으로 불가능할듯",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-92",
       "message": "태백 대회 이후임 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-09-28_태백-대회-이후임"
     },
     {
-      "id": "parse-note-611",
+      "id": "parse-note-613",
       "message": "토,일 퍼머넌트 고민",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-513",
+      "id": "parse-note-515",
       "message": "토요일 대회고 갔다가",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-620",
+      "id": "parse-note-622",
       "message": "토요일 비 피할 수 있음 퍼머넌트 계획",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-93",
+      "id": "parse-note-95",
       "message": "토요일 첫시간 하자 그게 젤 빨리 끝날듯",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-579",
+      "id": "parse-note-581",
       "message": "통영 고성 버스에 실을 수 있는지가 관건일듯",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-35",
       "message": "통영 라이딩 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-03-30_통영-라이딩"
     },
     {
-      "id": "parse-note-367",
+      "id": "parse-note-369",
       "message": "통영 밖에 없음",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-265",
+      "id": "parse-note-267",
       "message": "통영 철인 낙첨 고령만 잘 준비하자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-128",
+      "id": "parse-note-130",
       "message": "펭귄대회 바다입수 어렵다고 연락옴",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-566",
+      "id": "parse-note-568",
       "message": "평로라 연습이나 하자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-440",
+      "id": "parse-note-442",
       "message": "포기하자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-453",
+      "id": "parse-note-455",
       "message": "포기하자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-143",
+      "id": "parse-note-145",
       "message": "풀코스 마라톤 1주일 지나도",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-147",
+      "id": "parse-note-149",
       "message": "풀코스 마라톤을 생각해보게 되었다.",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-82",
+      "id": "parse-note-84",
       "message": "하는데 추가접수 2.13(금) 오전 10시에 가능하다고함 고민해보자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-40",
+      "id": "parse-note-42",
       "message": "하반기노리거나 내년 노리자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-376",
+      "id": "parse-note-378",
       "message": "하프 환불 신청하긴함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-379",
+      "id": "parse-note-381",
       "message": "하프도 괜찮을거 같음",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-607",
+      "id": "parse-note-609",
       "message": "하프도 나쁘지 않을듯 근데 전날 데미지가 있을듯",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-373",
+      "id": "parse-note-375",
       "message": "하프코스임",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-539",
+      "id": "parse-note-541",
       "message": "한강 쉬엄쉬엄",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-623",
+      "id": "parse-note-625",
       "message": "한강 쉬엄쉬엄",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-64",
       "message": "한강 쉬엄쉬엄 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-05-31_한강-쉬엄쉬엄"
     },
     {
-      "id": "parse-note-181",
+      "id": "parse-note-183",
       "message": "한강 크로스 스위밍",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-88",
+      "id": "parse-note-90",
       "message": "한강 크로스 스위밍 대회 확인",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-179",
+      "id": "parse-note-181",
       "message": "한강나이트 워크",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-204",
+      "id": "parse-note-206",
       "message": "한강나이트워크 25.08.02(토)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-72",
       "message": "한강크로스 스위밍 -> 연기 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-06-22_한강크로스-스위밍-연기"
     },
     {
-      "id": "parse-note-672",
+      "id": "parse-note-674",
       "message": "한강크로스 스위밍 신청 받는 것 확인",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-80",
       "message": "한강크로스 스위밍 연기 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-07-20_한강크로스-스위밍-연기"
     },
     {
-      "id": "parse-note-340",
+      "id": "parse-note-342",
       "message": "한강크로스 스위밍 연기됨",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-423",
+      "id": "parse-note-425",
       "message": "한강크로스 스위밍 접수 체크",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-63",
+      "id": "parse-note-65",
       "message": "한강크로스랑 일정겹침 변경 필요",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-409",
+      "id": "parse-note-411",
       "message": "한글런 있음 휴가 일정 보고 진행",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-94",
       "message": "한글런 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-10-09_한글런"
     },
     {
-      "id": "parse-note-304",
+      "id": "parse-note-306",
       "message": "해당 일 고령 철인3종 가자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-23",
+      "id": "parse-note-25",
       "message": "해보기도 했고 -> 환불 신청",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-231",
+      "id": "parse-note-233",
       "message": "현재 울진 철인 취소하고 일정은",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-126",
+      "id": "parse-note-128",
       "message": "현재 접수 마감되었고 추가 접수 있다고함",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-366",
+      "id": "parse-note-368",
       "message": "현재 철인3종은 일정 다겹쳐서",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-171",
+      "id": "parse-note-173",
       "message": "현재 희망하고 있는 대회는",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-682",
+      "id": "parse-note-684",
       "message": "홍천 그란폰도",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-81",
+      "id": "parse-note-83",
       "message": "홍천 그란폰도 4.25(토)",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-77",
+      "id": "parse-note-79",
       "message": "홍천 그란폰도 추가접수 및 입금 완료",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-41",
       "message": "홍천 그란폰도 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-04-19_홍천-그란폰도"
     },
     {
       "id": "enrich-note-44",
       "message": "홍천그란폰도 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-04-25_홍천그란폰도"
     },
     {
-      "id": "parse-note-49",
+      "id": "parse-note-51",
       "message": "화요일부터 접수",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-85",
+      "id": "parse-note-87",
       "message": "확인 https://share.google/1VVeB6jGu6zJCQi4T",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-537",
+      "id": "parse-note-539",
       "message": "확인하니 홍천그란폰도 04.19(토)에 있었음",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-538",
+      "id": "parse-note-540",
       "message": "환불도 불가 이건 포기 생각하자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-19",
+      "id": "parse-note-21",
       "message": "황산 철인3종 신청 및 결재",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-125",
+      "id": "parse-note-127",
       "message": "회원가입 카카오 계정으로 진행",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-468",
+      "id": "parse-note-470",
       "message": "휠러코리아와 함께하는 2025 Tour de DMZ 고성그란폰도",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-425",
+      "id": "parse-note-427",
       "message": "A214-309 김태훈 9308",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-101",
       "message": "GoFree Run 10km is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-11-09_gofree-run-10km"
     },
     {
-      "id": "parse-note-475",
+      "id": "parse-note-477",
       "message": "http://guriflowerrun.kr/",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-598",
+      "id": "parse-note-600",
       "message": "http://m.slowtriathlon.kr/",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-639",
+      "id": "parse-note-641",
       "message": "http://speedagency.kr/game_join.html?game_code=81",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-683",
+      "id": "parse-note-685",
       "message": "http://speedagency.kr/info2.htm",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-102",
+      "id": "parse-note-104",
       "message": "http://speedagency.kr/more.html?game_code=101",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-591",
+      "id": "parse-note-593",
       "message": "http://speedagency.kr/more.html?game_code=73",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-644",
+      "id": "parse-note-646",
       "message": "http://speedagency.kr/more.html?game_code=80&result=OK&success=1&fail=0&dupl=0&coupon=0&nicemoney=27&restnicemoney=728486",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-616",
+      "id": "parse-note-618",
       "message": "http://speedagency.kr/more.html?game_code=82",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-420",
+      "id": "parse-note-422",
       "message": "http://speedagency.kr/more.html?game_code=88",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-414",
+      "id": "parse-note-416",
       "message": "http://speedagency.kr/more.html?game_code=93",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-349",
+      "id": "parse-note-351",
       "message": "http://speedagency.kr/more.html?game_code=94",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-506",
+      "id": "parse-note-508",
       "message": "http://www.scswim.co.kr/bbs/board.php?bo_table=open&wr_id=1",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-141",
+      "id": "parse-note-143",
       "message": "http://www.seoulhalfrun.kr/",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-662",
+      "id": "parse-note-664",
       "message": "http://www.speedagency.kr/game_join.html?game_code=53",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-659",
+      "id": "parse-note-661",
       "message": "http://ygranfondo.com/",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-229",
+      "message": "https://blog.naver.com/npa2023/224070703487",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
+    },
+    {
+      "id": "parse-note-675",
+      "message": "https://cafe.daum.net/spgswim/kdld/8",
+      "source": "parse",
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-227",
-      "message": "https://blog.naver.com/npa2023/224070703487",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-673",
-      "message": "https://cafe.daum.net/spgswim/kdld/8",
-      "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
-    },
-    {
-      "id": "parse-note-225",
       "message": "https://form.naver.com/response/qiHYrZCX_R-ohxbmyveRsg",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-608",
+      "id": "parse-note-610",
       "message": "https://jejumarathon.com/#panel-1",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-92",
+      "id": "parse-note-94",
       "message": "https://m.cafe.daum.net/spgswim/kjgd/1?",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-401",
+      "id": "parse-note-403",
       "message": "https://marvelrunkorea.com/",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-523",
+      "id": "parse-note-525",
       "message": "https://runable.me/product/1909?comp=1904",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-111",
+      "id": "parse-note-113",
       "message": "https://thebike.co.kr/bbs/board.php?bo_table=10&wr_id=12254",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-631",
+      "id": "parse-note-633",
       "message": "https://www.binggraegranfondo.com/",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-150",
+      "id": "parse-note-152",
       "message": "https://www.gumimarathon.com/gumi/",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-392",
+      "id": "parse-note-394",
       "message": "https://www.hangeulrun.com/",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-316",
+      "id": "parse-note-318",
       "message": "https://www.jbcycling.or.kr/",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-551",
+      "id": "parse-note-553",
       "message": "https://www.lotteon.com/display/shop/seltDpShop/53783",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-557",
+      "id": "parse-note-559",
       "message": "https://www.seoulhalfmarathon.com/index.html?v2",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-469",
+      "id": "parse-note-471",
       "message": "https://www.thebike.co.kr/race/view?r_idx=308",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-512",
+      "id": "parse-note-514",
       "message": "https://www.thebike.co.kr/race/view.php?r_idx=301",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-481",
+      "id": "parse-note-483",
       "message": "https://www.triathlon.or.kr/events/tour/overview/?mode=overview&tourcd=1968&page=1&sYear=2025&vType=list&field=&keyword=",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-255",
+      "id": "parse-note-257",
       "message": "MBN 기념품 선택 09.08(월) 까지",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-247",
+      "id": "parse-note-249",
       "message": "MBN 기념품 신청 완료",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-297",
+      "id": "parse-note-299",
       "message": "MBN 마라톤 결재",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-301",
+      "id": "parse-note-303",
       "message": "Mbn 마라톤 고민해보자",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "enrich-note-102",
       "message": "MBN 서울 마라톤 하프 is queued for enrichment.",
       "source": "enrich",
-      "createdAt": "2026-03-16T07:10:00.435Z",
+      "createdAt": "2026-03-18T06:56:26.753Z",
       "contestId": "2026-11-16_mbn-서울-마라톤-하프"
     },
     {
-      "id": "parse-note-156",
+      "id": "parse-note-158",
       "message": "seoulhangang.kr https://share.google/JyefZRJap2mhTUzzj",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
-      "id": "parse-note-124",
+      "id": "parse-note-126",
       "message": "SwimRecords https://share.google/X6WYFk0ZpHNfYthdH",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     },
     {
       "id": "parse-note-11",
       "message": "WP Ultra Road :: 백두대간울트라로드 https://share.google/SdSMziY0WVokCw4aG",
       "source": "parse",
-      "createdAt": "2026-03-16T07:10:00.019Z"
+      "createdAt": "2026-03-18T06:56:26.347Z"
     }
   ]
 }
